@@ -1,0 +1,8 @@
+---
+title: "CV"
+pagetitle: "CV · Aske Halling"
+description-meta: "Curriculum vitae of Aske Halling, Assistant Professor of Political Science."
+toc: false
+---
+
+[**Download CV (PDF)**](files/cv.pdf){.btn .btn-outline-primary}

@@ -1,0 +1,55 @@
+---
+title: ""
+pagetitle: "Aske Halling"
+description-meta: "Aske Halling — Assistant Professor of Political Science at Aarhus University. Research on administrative burdens and citizen-state interactions."
+toc: false
+---
+
+::: hero
+::: hero-text
+# Aske Halling
+
+<p class="tagline">Assistant Professor · Aarhus University</p>
+
+I am an Assistant Professor at the [Department of Political Science](https://ps.au.dk) at Aarhus University. My research centers on encounters between citizens and the state, with three connected lines of work: the administrative burdens citizens experience when navigating public services; the legitimacy of those encounters and what demands citizens and policy makers consider acceptable; and how frontline workers perceive and respond to the citizens they serve.
+
+I received my PhD from Aarhus University in 2023 and have published in journals such as *Public Administration Review*, *Journal of Public Administration Research and Theory*, and *Public Administration*. My work has been recognised with best paper awards at *Politica* (2024) and the ENPA Conference (2026).
+
+::: social-links
+<a href="mailto:aske@ps.au.dk" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+<a href="https://www.linkedin.com/in/aske-halling-329195118/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a href="https://scholar.google.com/citations?user=AyPnunoAAAAJ&hl=en" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+:::
+
+:::
+
+::: hero-image
+![](images/profile.jpg)
+:::
+:::
+
+## Selected Recent Work
+
+::: card-list
+
+::: item
+[Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design]{.title}
+
+[*Public Administration Review*, 85(4): 1019–1037, 2025]{.meta}
+:::
+
+::: item
+[Measuring Burden Tolerance: Developing an Instrument across Seven Countries]{.title}
+
+[with Martin Bækgaard and Donald Moynihan · *Public Administration Review*, 85(2): 519–546, 2025]{.meta}
+:::
+
+::: item
+[Frontline Employees' Responses to Citizens' Communication of Burdens]{.title}
+
+[with Niels Bjørn Grund Petersen · *Public Administration Review*, 84(6): 1017–1037, 2024]{.meta}
+:::
+
+:::
+
+[See all publications →](research.qmd){.btn .btn-outline-primary style="margin-top: 1rem;"}

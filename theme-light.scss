@@ -1,0 +1,72 @@
+/*-- scss:defaults --*/
+
+// Color palette
+$primary: #1B4D5A;
+$secondary: #D4A574;
+$body-color: #2C3E45;
+$body-bg: #FBFAF7;
+$link-color: #1B4D5A;
+$link-hover-color: #D4A574;
+
+// Typography
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+$font-family-serif: "Georgia", "Source Serif Pro", serif;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 600;
+$headings-color: $primary;
+
+$font-size-base: 1.05rem;
+$line-height-base: 1.65;
+
+// Navbar
+$navbar-bg: $body-bg;
+$navbar-fg: $primary;
+$navbar-hl: $secondary;
+
+// Code
+$code-color: #b0407c;
+$code-bg: #F4F0E8;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: $font-family-serif;
+  color: $body-color;
+  background-color: $body-bg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif;
+  letter-spacing: -0.01em;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: $secondary;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(27, 77, 90, 0.1);
+  padding: 1rem 0;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  font-family: $font-family-sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.page-footer {
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
+  color: lighten($body-color, 20%);
+  border-top: 1px solid rgba(27, 77, 90, 0.1);
+}

@@ -1,0 +1,8 @@
+.quarto/
+_site/
+.DS_Store
+*.html
+!index.html
+
+/.quarto/
+**/*.quarto_ipynb

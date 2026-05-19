@@ -1,0 +1,51 @@
+---
+title: "Teaching"
+pagetitle: "Teaching · Aske Halling"
+description-meta: "Teaching public administration and policy evaluation at Aarhus University."
+---
+
+I teach courses in public administration and policy evaluation at Aarhus University, at both undergraduate and graduate level. My teaching draws on research in public policy, administrative behaviour, and quantitative methods.
+
+## Courses
+
+::: card-list
+
+::: item
+[Policy Evaluation]{.title}
+
+[BA · Aarhus University · 2025, 2026]{.meta}
+
+[Undergraduate course introducing students to the logic and practice of evaluating public policies. I serve as both lecturer and tutorial instructor, covering research design, causal inference, and applied examples from Danish and comparative policy contexts.]{.description}
+:::
+
+::: item
+[MA-Seminar in Public Administration]{.title}
+
+[MA · Aarhus University · 2020, 2024]{.meta}
+
+[Graduate seminar covering advanced topics in public administration research, with a focus on theory, research design, and current debates in the field.]{.description}
+:::
+
+::: item
+[Public Administration and Economics]{.title}
+
+[BA · Aarhus University · 2023]{.meta}
+
+[Undergraduate course examining the intersection of public administration and economic reasoning, including topics in public choice, bureaucratic behaviour, and welfare state organisation.]{.description}
+:::
+
+::: item
+[General Political Science · Introduction to Political Science · Public Administration · Methods I]{.title}
+
+[BA · Aarhus University · 2015–2019]{.meta}
+
+[Tutorial instruction across core undergraduate modules during graduate studies.]{.description}
+:::
+
+:::
+
+## Supervision
+
+I supervise master's theses in public administration, public policy, and related areas. I have supervised 3 individual and 2 group theses (2025–2026), and served as internship supervisor for 7 students (2024–2026).
+
+Students interested in thesis supervision in the areas of administrative burdens, citizen-state interactions, frontline workers, or political participation are welcome to reach out.

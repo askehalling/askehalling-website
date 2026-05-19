@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Aske Halling"
+  description: "Assistant Professor of Political Science, Aarhus University"
+  site-url: https://askehalling.com
+  favicon: images/favicon.png
+  open-graph: true
+  twitter-card: true
+
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: mailto:aske@ps.au.dk
+        aria-label: Email
+      - icon: linkedin
+        href: https://www.linkedin.com/in/aske-halling-329195118/
+        aria-label: LinkedIn
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=AyPnunoAAAAJ&hl=en
+        aria-label: Google Scholar
+
+  page-footer:
+    background: light
+    left: "© 2026 Aske Halling"
+    center: "Aarhus University · Department of Political Science"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
+    css: styles.css
+    toc: false
+    page-layout: full
+    grid:
+      sidebar-width: 0px
+      body-width: 900px
+      margin-width: 200px
+      gutter-width: 1.5rem

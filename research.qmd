@@ -1,0 +1,107 @@
+---
+title: "Research"
+pagetitle: "Research · Aske Halling"
+description-meta: "Research on administrative burdens, citizen-state interactions, frontline workers, and burden tolerance."
+---
+
+My research centers on encounters between citizens and the state, organized around three connected themes. The first examines the administrative burdens citizens face when navigating public services — the learning, compliance, and psychological costs that shape who gets access and on what terms. The second explores how citizens and policy makers think about how those encounters should be organized: what demands are acceptable, and what builds or erodes trust. The third examines how frontline workers perceive, respond to, and exercise discretion over the citizens they serve.
+
+## Publications
+
+### Experiences of Administrative Burden
+
+::: card-list
+
+::: item
+[Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden]{.title}
+
+[with Frederik Godt · *International Public Management Journal*, conditionally accepted, 2026]{.meta}
+:::
+
+::: item
+[Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design]{.title}
+
+[*Public Administration Review*, 85(4): 1019–1037, 2025](https://doi.org/10.1111/puar.13930){.meta}
+:::
+
+::: item
+[Administrative byrder i mødet med lægen: oplevelser af efterlevelsesomkostninger blandt borgere med dårligt helbred]{.title}
+
+[*Politica*, 56(4): 318–336, 2024](https://doi.org/10.7146/politica.v56i4.151589){.meta}
+:::
+
+::: item
+[Administrative Burden in Citizen-State Interactions: A Systematic Literature Review]{.title}
+
+[with Martin Bækgaard · *Journal of Public Administration Research and Theory*, 34(2): 180–195, 2024](https://doi.org/10.1093/jopart/muad023){.meta}
+:::
+
+:::
+
+### Administrative Legitimacy
+
+::: card-list
+
+::: item
+[Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers]{.title}
+
+[with Steven van de Walle · *Social Policy and Administration*, 60(1): 12–26, 2026](https://doi.org/10.1111/spol.13137){.meta}
+:::
+
+::: item
+[Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers]{.title}
+
+[with Mathilde Cecchini and Benedicte Gronhoj · *Public Administration*, 2025](https://doi.org/10.1111/padm.70037){.meta}
+
+[[open access version](https://osf.io/preprints/socarxiv/gpsb6_v1)]{.meta}
+:::
+
+::: item
+[Measuring Burden Tolerance: Developing an Instrument across Seven Countries]{.title}
+
+[with Martin Bækgaard and Donald Moynihan · *Public Administration Review*, 85(2): 519–546, 2025](https://doi.org/10.1111/puar.13835){.meta}
+:::
+
+::: item
+[How Difficult Should It Be? Evidence of Burden Tolerance from a Nationally Representative Sample]{.title}
+
+[with Pamela Herd and Donald Moynihan · *Public Management Review*, 25(11): 2053–2072, 2023](https://doi.org/10.1080/14719037.2022.2056910){.meta}
+:::
+
+:::
+
+### Frontline Workers and Service Delivery
+
+::: card-list
+
+::: item
+[Frontline Employees' Responses to Citizens' Communication of Burdens]{.title}
+
+[with Niels Bjørn Grund Petersen · *Public Administration Review*, 84(6): 1017–1037, 2024](https://doi.org/10.1111/puar.13800){.meta}
+:::
+
+::: item
+[Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Clients]{.title}
+
+[with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen · *Public Administration*, 103(1): 94–114, 2025](https://doi.org/10.1111/padm.13004){.meta}
+:::
+
+:::
+
+## Working Papers
+
+::: card-list
+
+::: item
+[Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands]{.title}
+
+[with Frederik Godt · *Policy Studies Journal*, revise and resubmit]{.meta}
+:::
+
+::: item
+[Personality as a Mechanism of Inequality in Experiences of Administrative Burdens]{.title}
+
+[under review · [preprint](https://doi.org/10.31235/osf.io/7wvh4_v1)]{.meta}
+:::
+
+:::
