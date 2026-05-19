@@ -10,6 +10,8 @@ website:
   open-graph: true
   twitter-card: true
 
+  search: false
+
   navbar:
     pinned: true
     left:
@@ -38,9 +40,7 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, theme-light.scss]
-      dark: [darkly, theme-dark.scss]
+    theme: [cosmo, theme-light.scss]
     css: styles.css
     toc: false
     page-layout: full
