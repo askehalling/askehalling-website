@@ -1,0 +1,102 @@
+/* Custom global styles */
+
+/* Hero section on home page */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 3rem;
+  align-items: center;
+  margin: 3rem 0 4rem 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero img {
+    margin: 0 auto;
+  }
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.hero .tagline {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  color: var(--bs-secondary, #D4A574);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.5rem;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Section headings */
+section h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--bs-secondary, #D4A574);
+  display: inline-block;
+}
+
+/* Publication / project cards */
+.card-list .item {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border-left: 3px solid var(--bs-secondary, #D4A574);
+  background: rgba(212, 165, 116, 0.06);
+  border-radius: 0 6px 6px 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-list .item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card-list .item .title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+.card-list .item .meta {
+  font-size: 0.9rem;
+  color: var(--bs-secondary, #D4A574);
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.card-list .item .description {
+  margin: 0;
+}
+
+/* Social links in hero */
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.social-links a {
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--bs-secondary, #D4A574);
+}
