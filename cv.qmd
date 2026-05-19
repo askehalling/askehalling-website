@@ -1,12 +1,10 @@
 ---
-title: "Aske Halling"
+title: "CV"
 pagetitle: "CV · Aske Halling"
 description-meta: "Curriculum vitae of Aske Halling, Assistant Professor of Political Science."
-toc: true
-toc-location: right
+toc: false
 format:
-  html:
-    toc: true
+  html: default
   typst:
     margin:
       x: 2.5cm
@@ -15,94 +13,95 @@ format:
 ---
 
 ::: {.content-visible when-format="html"}
-[**Download PDF**](files/cv.pdf){.btn .btn-outline-primary} · *Last updated May 2026*
+[**Download PDF**](files/cv.pdf){.btn .btn-outline-primary}
+
+*Last updated May 2026*
 :::
 
-## Academic Positions
+::: {#cv-content}
 
-**Assistant Professor** · 2023–present\
-Department of Political Science, Aarhus University
+Current employment
+:   **Assistant Professor** · 2023–present\
+    Department of Political Science, Aarhus University
 
-## Education
+Publications
+:   **10.** Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden (with Frederik Godt). Conditionally accepted in *International Public Management Journal*, 2026.
 
-**PhD in Political Science** · 2023\
-Department of Political Science, Aarhus University\
-*Research stay at KU Leuven, 2021*
+    **9.** Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers (with Steven van de Walle). *Social Policy and Administration* 60(1): 12–26, 2026.
 
-**MSc in Political Science** · 2018\
-Department of Political Science, Aarhus University
+    **8.** Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). *Public Administration*, 2025.
 
-**BA in Political Science** · 2016\
-Department of Political Science, Aarhus University
+    **7.** Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design. *Public Administration Review* 85(4): 1019–1037, 2025.
 
-## Publications
+    **6.** Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Clients (with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen). *Public Administration* 103(1): 94–114, 2025.
 
-### Peer-Reviewed Articles
+    **5.** Measuring Burden Tolerance: Developing an Instrument across Seven Countries (with Martin Bækgaard and Donald Moynihan). *Public Administration Review* 85(2): 519–546, 2025.
 
-10. **Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden** (with Frederik Godt). Conditionally accepted in *International Public Management Journal*, 2026.
+    **4.** Administrative byrder i mødet med lægen: oplevelser af efterlevelsesomkostninger blandt borgere med dårligt helbred. *Politica* 56(4): 318–336, 2024.
 
-9. **Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers** (with Steven van de Walle). *Social Policy and Administration* 60(1): 12–26, 2026.
+    **3.** Frontline Employees' Responses to Citizens' Communication of Burdens (with Niels Bjørn Grund Petersen). *Public Administration Review* 84(6): 1017–1037, 2024.
 
-8. **Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers** (with Mathilde Cecchini and Benedicte Gronhoj). *Public Administration*, 2025.
+    **2.** Administrative Burden in Citizen-State Interactions: A Systematic Literature Review (with Martin Bækgaard). *Journal of Public Administration Research and Theory* 34(2): 180–195, 2024.
 
-7. **Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design**. *Public Administration Review* 85(4): 1019–1037, 2025.
+    **1.** How Difficult Should It Be? Evidence of Burden Tolerance from a Nationally Representative Sample (with Pamela Herd and Donald Moynihan). *Public Management Review* 25(11): 2053–2072, 2023.
 
-6. **Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Clients** (with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen). *Public Administration* 103(1): 94–114, 2025.
+Working papers
+:   Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). R&R, *Policy Studies Journal*.
 
-5. **Measuring Burden Tolerance: Developing an Instrument across Seven Countries** (with Martin Bækgaard and Donald Moynihan). *Public Administration Review* 85(2): 519–546, 2025.
+    Personality as a Mechanism of Inequality in Experiences of Administrative Burdens. Under review.
 
-4. **Administrative byrder i mødet med lægen: oplevelser af efterlevelsesomkostninger blandt borgere med dårligt helbred**. *Politica* 56(4): 318–336, 2024.
+    "Everybody Should Be Able to Attend to Any Client, But…" (with Mathilde Cecchini and Benedicte Gronhoj). In progress.
 
-3. **Frontline Employees' Responses to Citizens' Communication of Burdens** (with Niels Bjørn Grund Petersen). *Public Administration Review* 84(6): 1017–1037, 2024.
+    The Usual Suspects: Traditional Predictors of Political Participation Explain Social Media Behavior (with Michael Bang Petersen and Stig Hebbelstrup Rye Rasmussen). In progress.
 
-2. **Administrative Burden in Citizen-State Interactions: A Systematic Literature Review** (with Martin Bækgaard). *Journal of Public Administration Research and Theory* 34(2): 180–195, 2024.
+    Deservingness Perceptions and Burden Tolerance: A Conjoint Experiment. In progress.
 
-1. **How Difficult Should It Be? Evidence of Burden Tolerance from a Nationally Representative Sample** (with Pamela Herd and Donald Moynihan). *Public Management Review* 25(11): 2053–2072, 2023.
+    Testing Ethnic Bias in Frontline Decision-Making (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). In progress.
 
-### Working Papers
+    Nedlunkning af valgsteder svækker stemmedeltagelsen (with Lea Munksgaard Rubin). In progress.
 
-- **Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands** (with Frederik Godt). Revise and resubmit at *Policy Studies Journal*.
-- **Personality as a Mechanism of Inequality in Experiences of Administrative Burdens**. Under review.
-- **"Everybody Should Be Able to Attend to Any Client, But…"** (with Mathilde Cecchini and Benedicte Gronhoj). In progress.
-- **The Usual Suspects: Traditional Predictors of Political Participation Explain Social Media Behavior** (with Michael Bang Petersen and Stig Hebbelstrup Rye Rasmussen). In progress.
-- **Deservingness Perceptions and Burden Tolerance: A Conjoint Experiment**. In progress.
-- **Testing Ethnic Bias in Frontline Decision-Making** (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). In progress.
-- **Nedlunkning af valgsteder svækker stemmedeltagelsen** (with Lea Munksgaard Rubin). In progress.
-- **Politicized Burdens? Exploring How Electoral Changes Influence Burden Tolerance** (with Martin Bækgaard). In progress.
+    Politicized Burdens? Exploring How Electoral Changes Influence Burden Tolerance (with Martin Bækgaard). In progress.
 
-## Awards
+Awards
+:   Best paper presented in the Behavioural Public Administration Research Group at the 2026 ENPA Conference for "Personality as a Mechanism of Inequality in Experiences of Administrative Burdens" · 2026
 
-**Best Paper, ENPA Conference** · 2026\
-Behavioural Public Administration Research Group, for "Personality as a Mechanism of Inequality in Experiences of Administrative Burdens"
+    Best paper in *Politica* for "Administrative byrder i mødet med lægen" · 2024
 
-**Best Paper, *Politica*** · 2024\
-For "Administrative byrder i mødet med lægen"
+Invited talks
+:   Rockwool Foundation, Social Policy Research Seminar · 2026
 
-## Teaching
+    IT University of Copenhagen, PhD Course on Literature Reviews · 2025
 
-**Policy Evaluation** (lectures and tutorials, BA) · Aarhus University · 2025, 2026\
-**MA-Seminar** · Aarhus University · 2020, 2024\
-**Public Administration and Economics** (lectures, BA) · Aarhus University · 2023\
-**General Political Science · Introduction to Political Science · Public Administration · Methods I** (tutorials, BA) · Aarhus University · 2015–2019
+Reviewer experience
+:   *Journal of Public Administration Research and Theory* (2022–2026) · *Public Administration Review* (2023–2026) · *Policy Studies Journal* (2023, 2025) · *Journal of Politics* (2024) · *British Journal of Political Science* (2024) · *Public Administration* (2023, 2025) · *Journal of Policy Analysis and Management* (2026) · *Public Management Review* (2022–2026) · *Perspectives on Public Management and Governance* (2025) · *International Public Management Journal* (2024, 2025) · *Social Policy and Administration* (2026) · *Journal of Behavioural Public Administration* (2023) · *Nonprofit and Voluntary Sector Quarterly* (2025) · *Public Performance and Management Review* (2023) · *Israel Science Foundation* (2026) · *Journal of Public Policy* (2026)
 
-### Supervision
+Conference participation
+:   ENPA (2026) · EGPA (2018, 2019, 2021, 2022) · PMRC (2019, 2022) · DPSA (2019, 2021, 2023) · NIG (2021)
 
-Master's theses: 3 individual, 2 group · 2025–2026\
-Internship supervisor: 7 students · 2024–2026
+Foreign university stays
+:   Research stay at KU Leuven · 2021
 
-## Invited Talks
+Teaching
+:   Lectures in Policy Evaluation (BA) · Aarhus University · 2025, 2026
 
-- Rockwool Foundation, Social Policy Research Seminar · 2026
-- IT University of Copenhagen, PhD Course on Literature Reviews · 2025
+    Tutorials in Policy Evaluation (BA) · Aarhus University · 2025
 
-## Reviewer Experience
+    MA-Seminar · Aarhus University · 2020, 2024
 
-*Journal of Public Administration Research and Theory* · *Public Administration Review* · *Policy Studies Journal* · *Journal of Politics* · *British Journal of Political Science* · *Public Administration* · *Journal of Policy Analysis and Management* · *Public Management Review* · *Perspectives on Public Management and Governance* · *International Public Management Journal* · *Social Policy and Administration* · *Journal of Behavioural Public Administration* · *Nonprofit and Voluntary Sector Quarterly* · *Public Performance and Management Review* · *Journal of Public Policy* · Israel Science Foundation
+    Lectures in Public Administration and Economics (BA) · Aarhus University · 2023
 
-## Conference Participation
+    Tutorials in General Political Science, Introduction to Political Science, Public Administration, and Methods I (BA) · Aarhus University · 2015–2019
 
-ENPA (2026) · EGPA (2018, 2019, 2021, 2022) · PMRC (2019, 2022) · DPSA (2019, 2021, 2023) · NIG (2021)
+Supervision
+:   Master's theses: 3 individual, 2 group · 2025–2026
 
-## Foreign University Stays
+    Internship supervisor: 7 students · 2024–2026
 
-Research stay, KU Leuven · 2021
+University education
+:   PhD in Political Science · Aarhus University · 2023
+
+    Master's degree in Political Science (MSc) · Aarhus University · 2018
+
+    Bachelor's degree in Political Science (BA) · Aarhus University · 2016
+
+:::

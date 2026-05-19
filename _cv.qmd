@@ -1,0 +1,180 @@
+---
+format:
+  typst:
+    paper: a4
+---
+
+```{=typst}
+#set page(
+  margin: (x: 2.5cm, y: 2.3cm),
+  numbering: "1",
+  number-align: center + bottom
+)
+#set text(font: "New Computer Modern", size: 10.5pt, lang: "en")
+#set par(leading: 0.72em, justify: true)
+
+// ── Header ────────────────────────────────────────────────────────────────────
+#align(left)[
+  #v(0.2cm)
+  #text(size: 26pt, weight: "regular")[Aske Halling]
+  #h(6pt)
+  #text(size: 11pt, fill: luma(120), style: "italic")[PhD]
+  #v(0.3cm)
+  #text(size: 9.5pt, fill: luma(80))[
+    aske\@ps.au.dk
+    #h(1em)·#h(1em)
+    askehalling.com
+    #h(1em)·#h(1em)
+    scholar.google.com
+    #h(1em)·#h(1em)
+    #emph[Updated May 2026]
+  ]
+]
+
+#v(0.45cm)
+#line(length: 100%, stroke: 0.8pt + luma(30))
+#v(0.6cm)
+
+// ── Section function ──────────────────────────────────────────────────────────
+#let section(title, body) = {
+  text(size: 10pt, weight: "bold")[#smallcaps[#title]]
+  v(0.1cm)
+  line(length: 100%, stroke: 0.4pt + luma(160))
+  v(0.35cm)
+  body
+  v(0.6cm)
+}
+
+// ── Entry: content left, year right ──────────────────────────────────────────
+#let entry(body, year: none) = {
+  if year != none {
+    grid(
+      columns: (1fr, 62pt),
+      column-gutter: 10pt,
+      body,
+      align(right + top)[#text(size: 9.5pt, fill: luma(100))[#year]]
+    )
+  } else {
+    body
+  }
+  v(0.28cm)
+}
+
+// ── Numbered publication ──────────────────────────────────────────────────────
+#let pub(n, body) = {
+  grid(
+    columns: (22pt, 1fr),
+    column-gutter: 6pt,
+    align(top + right)[#text(size: 10.5pt)[#n.]],
+    body
+  )
+  v(0.22cm)
+}
+
+// ── Current Employment ────────────────────────────────────────────────────────
+#section("Current Employment")[
+  #entry(year: "2023–")[
+    *Assistant Professor* \
+    #text(style: "italic")[Department of Political Science, Aarhus University]
+  ]
+]
+
+// ── Publications ──────────────────────────────────────────────────────────────
+#section("Publications")[
+  #pub(10, [Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden (with Frederik Godt). Conditionally accepted in _International Public Management Journal_, 2026.])
+  #pub(9, [Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers\* (with Steven van de Walle). _Social Policy and Administration_ 60(1): 12–26, 2026.])
+  #pub(8, [Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_, 2025.])
+  #pub(7, [Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design.\* _Public Administration Review_ 85(4): 1019–1037, 2025.])
+  #pub(6, [Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Clients (with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen). _Public Administration_ 103(1): 94–114, 2025.])
+  #pub(5, [Measuring Burden Tolerance: Developing an Instrument across Seven Countries\* (with Martin Bækgaard and Donald Moynihan). _Public Administration Review_ 85(2): 519–546, 2025.])
+  #pub(4, [Administrative byrder i mødet med lægen: oplevelser af efterlevelsesomkostninger blandt borgere med dårligt helbred.\* _Politica_ 56(4): 318–336, 2024.])
+  #pub(3, [Frontline Employees' Responses to Citizens' Communication of Burdens\* (with Niels Bjørn Grund Petersen). _Public Administration Review_ 84(6): 1017–1037, 2024.])
+  #pub(2, [Administrative Burden in Citizen-State Interactions: A Systematic Literature Review\* (with Martin Bækgaard). _Journal of Public Administration Research and Theory_ 34(2): 180–195, 2024.])
+  #pub(1, [How Difficult Should It Be? Evidence of Burden Tolerance from a Nationally Representative Sample\* (with Pamela Herd and Donald Moynihan). _Public Management Review_ 25(11): 2053–2072, 2023.])
+  #v(0.05cm)
+  #text(size: 8.5pt, style: "italic", fill: luma(120))[\* Part of PhD dissertation]
+]
+
+// ── Working Papers ────────────────────────────────────────────────────────────
+#section("Working Papers")[
+  Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). R&R, _Policy Studies Journal_.
+  #v(0.28cm)
+  Personality as a Mechanism of Inequality in Experiences of Administrative Burdens. Under review.
+  #v(0.28cm)
+  "Everybody Should Be Able to Attend to Any Client, But…" (with Mathilde Cecchini and Benedicte Gronhoj). In progress.
+  #v(0.28cm)
+  The Usual Suspects: Traditional Predictors of Political Participation Explain Social Media Behavior (with Michael Bang Petersen and Stig Hebbelstrup Rye Rasmussen). In progress.
+  #v(0.28cm)
+  Deservingness Perceptions and Burden Tolerance: A Conjoint Experiment. In progress.
+  #v(0.28cm)
+  Testing Ethnic Bias in Frontline Decision-Making (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). In progress.
+  #v(0.28cm)
+  Nedlunkning af valgsteder svækker stemmedeltagelsen (with Lea Munksgaard Rubin). In progress.
+  #v(0.28cm)
+  Politicized Burdens? Exploring How Electoral Changes Influence Burden Tolerance (with Martin Bækgaard). In progress.
+]
+
+// ── Awards ────────────────────────────────────────────────────────────────────
+#section("Awards")[
+  #entry(year: "2026")[
+    Best paper, Behavioural Public Administration Research Group, ENPA Conference \
+    #text(style: "italic", fill: luma(80))[For "Personality as a Mechanism of Inequality in Experiences of Administrative Burdens"]
+  ]
+  #entry(year: "2024")[
+    Best paper, _Politica_ \
+    #text(style: "italic", fill: luma(80))[For "Administrative byrder i mødet med lægen"]
+  ]
+]
+
+// ── Invited Talks ─────────────────────────────────────────────────────────────
+#section("Invited Talks")[
+  #entry(year: "2026")[Rockwool Foundation, Social Policy Research Seminar]
+  #entry(year: "2025")[IT University of Copenhagen, PhD Course on Literature Reviews]
+]
+
+// ── Reviewer Experience ───────────────────────────────────────────────────────
+#section("Reviewer Experience")[
+  _Journal of Public Administration Research and Theory_ · _Public Administration Review_ · _Policy Studies Journal_ · _Journal of Politics_ · _British Journal of Political Science_ · _Public Administration_ · _Journal of Policy Analysis and Management_ · _Public Management Review_ · _Perspectives on Public Management and Governance_ · _International Public Management Journal_ · _Social Policy and Administration_ · _Journal of Behavioural Public Administration_ · _Nonprofit and Voluntary Sector Quarterly_ · _Public Performance and Management Review_ · _Israel Science Foundation_ · _Journal of Public Policy_
+]
+
+// ── Conference Participation ──────────────────────────────────────────────────
+#section("Conference Participation")[
+  ENPA (2026) · EGPA (2018, 2019, 2021, 2022) · PMRC (2019, 2022) · DPSA (2019, 2021, 2023) · NIG (2021)
+]
+
+// ── Foreign University Stays ──────────────────────────────────────────────────
+#section("Foreign University Stays")[
+  #entry(year: "2021")[Research stay, KU Leuven]
+]
+
+// ── Teaching ──────────────────────────────────────────────────────────────────
+#section("Teaching")[
+  #entry(year: "2025, 2026")[Lectures in Policy Evaluation (BA) · Department of Political Science, Aarhus University]
+  #entry(year: "2025")[Tutorials in Policy Evaluation (BA) · Department of Political Science, Aarhus University]
+  #entry(year: "2020, 2024")[MA-Seminar · Department of Political Science, Aarhus University]
+  #entry(year: "2023")[Lectures in Public Administration and Economics (BA) · Department of Political Science, Aarhus University]
+  #entry(year: "2015–2019")[Tutorials in General Political Science, Introduction to Political Science, Public Administration, and Methods I (BA) · Department of Political Science, Aarhus University]
+]
+
+// ── Supervision ───────────────────────────────────────────────────────────────
+#section("Supervision")[
+  #entry(year: "2025–2026")[Master's theses: 3 individual, 2 group]
+  #entry(year: "2024–2026")[Internship supervisor: 7 students]
+]
+
+// ── University Education ──────────────────────────────────────────────────────
+#section("University Education")[
+  #entry(year: "2023")[
+    *PhD in Political Science* \
+    #text(style: "italic")[Department of Political Science, Aarhus University]
+  ]
+  #entry(year: "2018")[
+    *Master's degree in Political Science (MSc)* \
+    #text(style: "italic")[Department of Political Science, Aarhus University]
+  ]
+  #entry(year: "2016")[
+    *Bachelor's degree in Political Science (BA)* \
+    #text(style: "italic")[Department of Political Science, Aarhus University]
+  ]
+]
+```
