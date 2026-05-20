@@ -21,11 +21,11 @@ format:
   #text(size: 11pt, fill: luma(120), style: "italic")[PhD]
   #v(0.3cm)
   #text(size: 9.5pt, fill: luma(80))[
-    aske\@ps.au.dk
+    #link("mailto:aske@ps.au.dk")[aske\@ps.au.dk]
     #h(1em)·#h(1em)
-    askehalling.com
+    #link("https://askehalling.com")[askehalling.com]
     #h(1em)·#h(1em)
-    scholar.google.com
+    #link("https://scholar.google.com/citations?user=AyPnunoAAAAJ&hl=en")[scholar.google.com]
     #h(1em)·#h(1em)
     #emph[Updated May 2026]
   ]
