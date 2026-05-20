@@ -4,8 +4,6 @@ pagetitle: "Research · Aske Halling"
 description-meta: "Research on administrative burdens, citizen-state interactions, frontline workers, and burden tolerance."
 ---
 
-My research centers on encounters between citizens and the state, organized around three connected themes. The first examines the administrative burdens citizens face when navigating public services — the learning, compliance, and psychological costs that shape who gets access and on what terms. The second explores how citizens and policy makers think about how those encounters should be organized: what demands are acceptable, and what builds or erodes trust. The third examines how frontline workers perceive, respond to, and exercise discretion over the citizens they serve.
-
 ## Publications
 
 ### Experiences of Administrative Burden
