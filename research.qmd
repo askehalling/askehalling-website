@@ -4,8 +4,6 @@ pagetitle: "Research · Aske Halling"
 description-meta: "Research on administrative burdens, citizen-state interactions, frontline workers, and burden tolerance."
 ---
 
-## Publications
-
 ### Experiences of Administrative Burden
 
 ::: card-list
