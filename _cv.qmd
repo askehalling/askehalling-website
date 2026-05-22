@@ -81,7 +81,7 @@ format:
 
 // ── Publications ──────────────────────────────────────────────────────────────
 #section("Publications")[
-  #pub(10, [Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden (with Frederik Godt). Conditionally accepted in _International Public Management Journal_, 2026.])
+  #pub(10, [Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden (with Frederik Godt). Conditionally accepted in _International Public Management Journal_, 2026. #link("https://osf.io/preprints/socarxiv/uxcb7_v1")[preprint]])
   #pub(9, [Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers\* (with Steven van de Walle). _Social Policy and Administration_ 60(1): 12–26, 2026.])
   #pub(8, [Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_, 2025.])
   #pub(7, [Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design.\* _Public Administration Review_ 85(4): 1019–1037, 2025.])

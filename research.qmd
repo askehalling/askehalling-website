@@ -12,6 +12,8 @@ description-meta: "Research on administrative burdens, citizen-state interaction
 [Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden]{.title}
 
 [with Frederik Godt · *International Public Management Journal*, conditionally accepted, 2026]{.meta}
+
+[[preprint](https://osf.io/preprints/socarxiv/uxcb7_v1)]{.meta}
 :::
 
 ::: item
