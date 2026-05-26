@@ -2,6 +2,9 @@
 title: "Teaching"
 pagetitle: "Teaching · Aske Halling"
 description-meta: "Teaching public administration and policy evaluation at Aarhus University."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://askehalling.com/teaching.html">
 ---
 
 I teach courses in public administration and policy evaluation at Aarhus University, at both undergraduate and graduate level. My teaching draws on research in public policy, administrative behaviour, and quantitative methods.

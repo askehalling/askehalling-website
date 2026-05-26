@@ -2,6 +2,9 @@
 title: "Research"
 pagetitle: "Research · Aske Halling"
 description-meta: "Research on administrative burdens, citizen-state interactions, frontline workers, and burden tolerance."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://askehalling.com/research.html">
 ---
 
 ### Experiences of Administrative Burden

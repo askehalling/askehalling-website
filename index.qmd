@@ -3,6 +3,9 @@ title: ""
 pagetitle: "Aske Halling"
 description-meta: "Aske Halling — Assistant Professor of Political Science at Aarhus University. Research on administrative burdens and citizen-state interactions."
 toc: false
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://askehalling.com/">
 ---
 
 ::: hero
