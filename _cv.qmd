@@ -97,7 +97,7 @@ format:
 
 // ── Working Papers ────────────────────────────────────────────────────────────
 #section("Working Papers")[
-  Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). R&R, _Policy Studies Journal_.
+  Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). R&R, _Policy Studies Journal_. #link("https://osf.io/preprints/socarxiv/ktb2v_v1")[preprint]
   #v(0.28cm)
   Personality as a Mechanism of Inequality in Experiences of Administrative Burdens. Under review.
   #v(0.28cm)

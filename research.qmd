@@ -97,6 +97,8 @@ include-in-header:
 [Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands]{.title}
 
 [with Frederik Godt · *Policy Studies Journal*, revise and resubmit]{.meta}
+
+[[preprint](https://osf.io/preprints/socarxiv/ktb2v_v1)]{.meta}
 :::
 
 ::: item
