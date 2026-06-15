@@ -107,4 +107,10 @@ include-in-header:
 [under review · [preprint](https://doi.org/10.31235/osf.io/7wvh4_v1)]{.meta}
 :::
 
+::: item
+[Danish Unemployment Caseworkers Do Not Discriminate Against Ethnic Minorities: Evidence from a High-Powered Survey Experiment]{.title}
+
+[with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen · under review]{.meta}
+:::
+
 :::

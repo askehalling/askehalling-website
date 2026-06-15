@@ -10,4 +10,4 @@ include-in-header:
 
 [**Download PDF**](files/cv.pdf){.btn .btn-outline-primary}
 
-*Last updated May 2026*
+*Last updated June 2026*

@@ -27,7 +27,7 @@ format:
     #h(1em)·#h(1em)
     #link("https://scholar.google.com/citations?user=AyPnunoAAAAJ&hl=en")[scholar.google.com]
     #h(1em)·#h(1em)
-    #emph[Updated May 2026]
+    #emph[Updated June 2026]
   ]
 ]
 
@@ -107,7 +107,7 @@ format:
   #v(0.28cm)
   Deservingness Perceptions and Burden Tolerance: A Conjoint Experiment. In progress.
   #v(0.28cm)
-  Testing Ethnic Bias in Frontline Decision-Making (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). In progress.
+  Danish unemployment caseworkers do not discriminate against ethnic minorities: evidence from a high-powered survey experiment (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). Under review.
   #v(0.28cm)
   Nedlunkning af valgsteder svækker stemmedeltagelsen (with Lea Munksgaard Rubin). In progress.
   #v(0.28cm)
@@ -134,7 +134,7 @@ format:
 
 // ── Reviewer Experience ───────────────────────────────────────────────────────
 #section("Reviewer Experience")[
-  _Journal of Public Administration Research and Theory_ · _Public Administration Review_ · _Policy Studies Journal_ · _Journal of Politics_ · _British Journal of Political Science_ · _Public Administration_ · _Journal of Policy Analysis and Management_ · _Public Management Review_ · _Perspectives on Public Management and Governance_ · _International Public Management Journal_ · _Social Policy and Administration_ · _Journal of Behavioural Public Administration_ · _Nonprofit and Voluntary Sector Quarterly_ · _Public Performance and Management Review_ · _Israel Science Foundation_ · _Journal of Public Policy_
+  _Journal of Public Administration Research and Theory_ · _Public Administration Review_ · _Policy Studies Journal_ · _Journal of Politics_ · _British Journal of Political Science_ · _Public Administration_ · _Journal of Policy Analysis and Management_ · _Public Management Review_ · _Perspectives on Public Management and Governance_ · _International Public Management Journal_ · _Social Policy and Administration_ · _Journal of Behavioural Public Administration_ · _Nonprofit and Voluntary Sector Quarterly_ · _Public Performance and Management Review_ · _Governance_ · _Israel Science Foundation_ · _Journal of Public Policy_
 ]
 
 // ── Conference Participation ──────────────────────────────────────────────────
