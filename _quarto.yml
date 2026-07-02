@@ -19,6 +19,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: scholarfolio.qmd
+        text: Scholar Folio
       - href: cv.qmd
         text: CV
     right:
