@@ -12,9 +12,9 @@ include-in-header:
 ::: card-list
 
 ::: item
-[Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden]{.title}
+[Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden]{.title}
 
-[with Frederik Godt · *International Public Management Journal*, conditionally accepted, 2026]{.meta}
+[with Frederik Godt · *International Public Management Journal*, 2026](https://doi.org/10.1080/10967494.2026.2696855){.meta}
 
 [[preprint](https://osf.io/preprints/socarxiv/uxcb7_v1)]{.meta}
 :::
@@ -110,7 +110,13 @@ include-in-header:
 ::: item
 [Danish Unemployment Caseworkers Do Not Discriminate Against Ethnic Minorities: Evidence from a High-Powered Survey Experiment]{.title}
 
-[with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen · under review]{.meta}
+[with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen · *Journal of Behavioral Public Administration*, revise and resubmit]{.meta}
+:::
+
+::: item
+["Everybody Should Be Able to Attend to Any Client, But…" – How Frontline Workers and Frontline Managers Interpret Citizens' Differential Treatment of Staff]{.title}
+
+[with Mathilde Cecchini and Benedicte Gronhoj · in progress]{.meta}
 :::
 
 :::

@@ -73,6 +73,12 @@ I received my PhD from Aarhus University in 2023 and have published in journals 
 ::: card-list
 
 ::: item
+[Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden]{.title}
+
+[with Frederik Godt · *International Public Management Journal*, 2026]{.meta}
+:::
+
+::: item
 [Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design]{.title}
 
 [*Public Administration Review*, 85(4): 1019–1037, 2025]{.meta}
@@ -82,12 +88,6 @@ I received my PhD from Aarhus University in 2023 and have published in journals 
 [Measuring Burden Tolerance: Developing an Instrument across Seven Countries]{.title}
 
 [with Martin Bækgaard and Donald Moynihan · *Public Administration Review*, 85(2): 519–546, 2025]{.meta}
-:::
-
-::: item
-[Frontline Employees' Responses to Citizens' Communication of Burdens]{.title}
-
-[with Niels Bjørn Grund Petersen · *Public Administration Review*, 84(6): 1017–1037, 2024]{.meta}
 :::
 
 :::

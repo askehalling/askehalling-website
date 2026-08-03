@@ -27,7 +27,7 @@ format:
     #h(1em)·#h(1em)
     #link("https://scholar.google.com/citations?user=AyPnunoAAAAJ&hl=en")[scholar.google.com]
     #h(1em)·#h(1em)
-    #emph[Updated June 2026]
+    #emph[Updated August 2026]
   ]
 ]
 
@@ -81,7 +81,7 @@ format:
 
 // ── Publications ──────────────────────────────────────────────────────────────
 #section("Publications")[
-  #pub(10, [Not Just the Rules: Favorable Outcomes Reduce Subjective Administrative Burden (with Frederik Godt). Conditionally accepted in _International Public Management Journal_, 2026. #link("https://osf.io/preprints/socarxiv/uxcb7_v1")[preprint]])
+  #pub(10, [Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden (with Frederik Godt). _International Public Management Journal_, 2026. #link("https://osf.io/preprints/socarxiv/uxcb7_v1")[preprint]])
   #pub(9, [Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers\* (with Steven van de Walle). _Social Policy and Administration_ 60(1): 12–26, 2026.])
   #pub(8, [Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_, 2025.])
   #pub(7, [Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design.\* _Public Administration Review_ 85(4): 1019–1037, 2025.])
@@ -101,7 +101,7 @@ format:
   #v(0.28cm)
   Personality as a Mechanism of Inequality in Experiences of Administrative Burdens. Under review.
   #v(0.28cm)
-  Danish unemployment caseworkers do not discriminate against ethnic minorities: evidence from a high-powered survey experiment (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). Under review.
+  Danish unemployment caseworkers do not discriminate against ethnic minorities: evidence from a high-powered survey experiment (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). R&R, _Journal of Behavioral Public Administration_.
   #v(0.28cm)
   "Everybody Should Be Able to Attend to Any Client, But…" (with Mathilde Cecchini and Benedicte Gronhoj). In progress.
   #v(0.28cm)
