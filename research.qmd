@@ -44,6 +44,14 @@ include-in-header:
 ::: card-list
 
 ::: item
+[Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands]{.title}
+
+[with Frederik Godt · *Policy Studies Journal*, conditionally accepted, 2026]{.meta}
+
+[[preprint](https://osf.io/preprints/socarxiv/ktb2v_v1)]{.meta}
+:::
+
+::: item
 [Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers]{.title}
 
 [with Steven van de Walle · *Social Policy and Administration*, 60(1): 12–26, 2026](https://doi.org/10.1111/spol.13137){.meta}
@@ -92,14 +100,6 @@ include-in-header:
 ## Working Papers
 
 ::: card-list
-
-::: item
-[Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands]{.title}
-
-[with Frederik Godt · *Policy Studies Journal*, revise and resubmit]{.meta}
-
-[[preprint](https://osf.io/preprints/socarxiv/ktb2v_v1)]{.meta}
-:::
 
 ::: item
 [Personality as a Mechanism of Inequality in Experiences of Administrative Burdens]{.title}
