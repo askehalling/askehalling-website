@@ -82,7 +82,7 @@ format:
 // ── Publications ──────────────────────────────────────────────────────────────
 #section("Publications")[
   #pub(11, [Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). Conditionally accepted in _Policy Studies Journal_, 2026. #link("https://osf.io/preprints/socarxiv/ktb2v_v1")[preprint]])
-  #pub(10, [Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden (with Frederik Godt). _International Public Management Journal_, 2026. #link("https://osf.io/preprints/socarxiv/uxcb7_v1")[preprint]])
+  #pub(10, [Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden (with Frederik Godt). _International Public Management Journal_, 2026. #link("https://doi.org/10.1080/10967494.2026.2696855")[open access]])
   #pub(9, [Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers\* (with Steven van de Walle). _Social Policy and Administration_ 60(1): 12–26, 2026.])
   #pub(8, [Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_, 2025.])
   #pub(7, [Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design.\* _Public Administration Review_ 85(4): 1019–1037, 2025.])
@@ -133,7 +133,7 @@ format:
 
 // ── Reviewer Experience ───────────────────────────────────────────────────────
 #section("Reviewer Experience")[
-  _Journal of Public Administration Research and Theory_ · _Public Administration Review_ · _Policy Studies Journal_ · _Journal of Politics_ · _British Journal of Political Science_ · _Public Administration_ · _Journal of Policy Analysis and Management_ · _Public Management Review_ · _Perspectives on Public Management and Governance_ · _International Public Management Journal_ · _Social Policy and Administration_ · _Journal of Behavioural Public Administration_ · _Nonprofit and Voluntary Sector Quarterly_ · _Public Performance and Management Review_ · _Governance_ · _Israel Science Foundation_ · _Journal of Public Policy_
+  _Journal of Public Administration Research and Theory_ · _Public Administration Review_ · _Policy Studies Journal_ · _Journal of Politics_ · _British Journal of Political Science_ · _Public Administration_ · _Journal of Policy Analysis and Management_ · _Public Management Review_ · _Perspectives on Public Management and Governance_ · _International Public Management Journal_ · _Social Policy and Administration_ · _Journal of Behavioural Public Administration_ · _Nonprofit and Voluntary Sector Quarterly_ · _Public Performance and Management Review_ · _Governance_ · _Israel Science Foundation_ · _Journal of Public Policy_ · _Social Science and Medicine_ · _Administrative Theory & Praxis_
 ]
 
 // ── Conference Participation ──────────────────────────────────────────────────

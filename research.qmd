@@ -15,8 +15,6 @@ include-in-header:
 [Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden]{.title}
 
 [with Frederik Godt · *International Public Management Journal*, 2026](https://doi.org/10.1080/10967494.2026.2696855){.meta}
-
-[[preprint](https://osf.io/preprints/socarxiv/uxcb7_v1)]{.meta}
 :::
 
 ::: item
