@@ -123,4 +123,10 @@ include-in-header:
 [with Michael Bang Petersen and Stig Hebbelstrup Rye Rasmussen · in progress]{.meta}
 :::
 
+::: item
+[Færre valgsteder, færre vælgere? Valgstedslukninger og valgdeltagelse fra 2007-2026]{.title}
+
+[with Lea Munksgaard Rubin · under review]{.meta}
+:::
+
 :::
