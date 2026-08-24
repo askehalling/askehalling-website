@@ -100,15 +100,21 @@ include-in-header:
 ::: card-list
 
 ::: item
+[No evidence of ethnic discrimination in Danish caseworkers' sanctioning intentions: a high-powered, preregistered survey experiment]{.title}
+
+[with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen · *Journal of Behavioral Public Administration*, revise and resubmit]{.meta}
+:::
+
+::: item
 [Personality as a Mechanism of Inequality in Experiences of Administrative Burdens]{.title}
 
 [under review · [preprint](https://doi.org/10.31235/osf.io/7wvh4_v1)]{.meta}
 :::
 
 ::: item
-[Danish Unemployment Caseworkers Do Not Discriminate Against Ethnic Minorities: Evidence from a High-Powered Survey Experiment]{.title}
+[Færre valgsteder, færre vælgere? Valgstedslukninger og valgdeltagelse fra 2007-2026]{.title}
 
-[with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen · *Journal of Behavioral Public Administration*, revise and resubmit]{.meta}
+[with Lea Munksgaard Rubin · under review]{.meta}
 :::
 
 ::: item
@@ -121,12 +127,6 @@ include-in-header:
 [How Representative Are Politically Active Social Media Users? A Descriptive Large-Scale Study of Danish Twitter Users]{.title}
 
 [with Michael Bang Petersen and Stig Hebbelstrup Rye Rasmussen · in progress]{.meta}
-:::
-
-::: item
-[Færre valgsteder, færre vælgere? Valgstedslukninger og valgdeltagelse fra 2007-2026]{.title}
-
-[with Lea Munksgaard Rubin · under review]{.meta}
 :::
 
 :::

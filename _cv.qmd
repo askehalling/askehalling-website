@@ -5,18 +5,30 @@ format:
 ---
 
 ```{=typst}
+// ── Accent colour ─────────────────────────────────────────────────────────────
+#let accent = rgb("#1F4E5F")
+
 #set page(
-  margin: (x: 2.5cm, y: 2.3cm),
-  numbering: "1",
-  number-align: center + bottom
+  margin: (x: 2.0cm, y: 1.9cm),
+  footer: context [
+    #set text(size: 8.5pt, fill: luma(130))
+    #grid(
+      columns: (1fr, 1fr),
+      align(left)[Aske Halling · Curriculum Vitae],
+      align(right)[#counter(page).display()]
+    )
+  ]
 )
 #set text(font: "New Computer Modern", size: 10.5pt, lang: "en")
-#set par(leading: 0.72em, justify: true)
+#set par(leading: 0.64em, justify: true)
+
+// Make links visible in the accent colour
+#show link: set text(fill: accent)
 
 // ── Header ────────────────────────────────────────────────────────────────────
 #align(left)[
   #v(0.2cm)
-  #text(size: 26pt, weight: "regular")[Aske Halling]
+  #text(size: 26pt, weight: "regular", fill: accent)[Aske Halling]
   #h(6pt)
   #text(size: 11pt, fill: luma(120), style: "italic")[PhD]
   #v(0.3cm)
@@ -31,18 +43,23 @@ format:
   ]
 ]
 
-#v(0.45cm)
-#line(length: 100%, stroke: 0.8pt + luma(30))
-#v(0.6cm)
+#v(0.4cm)
+#line(length: 100%, stroke: 0.8pt + accent)
+#v(0.5cm)
 
 // ── Section function ──────────────────────────────────────────────────────────
 #let section(title, body) = {
-  text(size: 10pt, weight: "bold")[#smallcaps[#title]]
-  v(0.1cm)
-  line(length: 100%, stroke: 0.4pt + luma(160))
-  v(0.35cm)
+  block(sticky: true)[
+    #stack(
+      dir: ttb,
+      text(size: 10.5pt, weight: "bold", fill: accent, tracking: 0.6pt, bottom-edge: "baseline")[#smallcaps[#title]],
+      v(0.1cm),
+      line(length: 100%, stroke: 0.4pt + luma(160)),
+      v(0.12cm),
+    )
+  ]
   body
-  v(0.6cm)
+  v(0.36cm)
 }
 
 // ── Entry: content left, year right ──────────────────────────────────────────
@@ -57,7 +74,7 @@ format:
   } else {
     body
   }
-  v(0.28cm)
+  v(0.24cm)
 }
 
 // ── Numbered publication ──────────────────────────────────────────────────────
@@ -68,7 +85,7 @@ format:
     align(top + right)[#text(size: 10.5pt)[#n.]],
     body
   )
-  v(0.22cm)
+  v(0.16cm)
 }
 
 // ── Current Employment ────────────────────────────────────────────────────────
@@ -81,8 +98,8 @@ format:
 
 // ── Publications ──────────────────────────────────────────────────────────────
 #section("Publications")[
-  #pub(11, [Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). Conditionally accepted in _Policy Studies Journal_, 2026. #link("https://osf.io/preprints/socarxiv/ktb2v_v1")[preprint]])
-  #pub(10, [Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden (with Frederik Godt). _International Public Management Journal_, 2026. #link("https://doi.org/10.1080/10967494.2026.2696855")[open access]])
+  #pub(11, [Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). Conditionally accepted in _Policy Studies Journal_, 2026.])
+  #pub(10, [Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden (with Frederik Godt). _International Public Management Journal_, 2026.])
   #pub(9, [Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers\* (with Steven van de Walle). _Social Policy and Administration_ 60(1): 12–26, 2026.])
   #pub(8, [Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_, 2025.])
   #pub(7, [Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design.\* _Public Administration Review_ 85(4): 1019–1037, 2025.])
@@ -98,18 +115,18 @@ format:
 
 // ── Working Papers ────────────────────────────────────────────────────────────
 #section("Working Papers")[
+  No evidence of ethnic discrimination in Danish caseworkers' sanctioning intentions: a high-powered, preregistered survey experiment (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). R&R, _Journal of Behavioral Public Administration_.
+  #v(0.2cm)
   Personality as a Mechanism of Inequality in Experiences of Administrative Burdens. Under review.
-  #v(0.28cm)
-  Danish unemployment caseworkers do not discriminate against ethnic minorities: evidence from a high-powered survey experiment (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). R&R, _Journal of Behavioral Public Administration_.
-  #v(0.28cm)
-  "Everybody Should Be Able to Attend to Any Client, But…" – How Frontline Workers and Frontline Managers Interpret Citizens' Differential Treatment of Staff (with Mathilde Cecchini and Benedicte Gronhoj). In progress.
-  #v(0.28cm)
-  How Representative Are Politically Active Social Media Users? A Descriptive Large-Scale Study of Danish Twitter Users (with Michael Bang Petersen and Stig Hebbelstrup Rye Rasmussen). In progress.
-  #v(0.28cm)
-  Deservingness Perceptions and Burden Tolerance: A Conjoint Experiment. In progress.
-  #v(0.28cm)
+  #v(0.2cm)
   Færre valgsteder, færre vælgere? Valgstedslukninger og valgdeltagelse fra 2007-2026 (with Lea Munksgaard Rubin). Under review.
-  #v(0.28cm)
+  #v(0.2cm)
+  "Everybody Should Be Able to Attend to Any Client, But…" – How Frontline Workers and Frontline Managers Interpret Citizens' Differential Treatment of Staff (with Mathilde Cecchini and Benedicte Gronhoj). In progress.
+  #v(0.2cm)
+  How Representative Are Politically Active Social Media Users? A Descriptive Large-Scale Study of Danish Twitter Users (with Michael Bang Petersen and Stig Hebbelstrup Rye Rasmussen). In progress.
+  #v(0.2cm)
+  Deservingness Perceptions and Burden Tolerance: A Conjoint Experiment. In progress.
+  #v(0.2cm)
   Politicized Burdens? Exploring How Electoral Changes Influence Burden Tolerance (with Martin Bækgaard). In progress.
 ]
 
