@@ -39,7 +39,7 @@ format:
     #h(1em)·#h(1em)
     #link("https://scholar.google.com/citations?user=AyPnunoAAAAJ&hl=en")[scholar.google.com]
     #h(1em)·#h(1em)
-    #emph[Updated August 2026]
+    #emph[Updated September 2026]
   ]
 ]
 
@@ -101,12 +101,12 @@ format:
   #pub(11, [Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). Conditionally accepted in _Policy Studies Journal_, 2026.])
   #pub(10, [Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden (with Frederik Godt). _International Public Management Journal_, 2026.])
   #pub(9, [Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers\* (with Steven van de Walle). _Social Policy and Administration_ 60(1): 12–26, 2026.])
-  #pub(8, [Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_, 2025.])
-  #pub(7, [Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design.\* _Public Administration Review_ 85(4): 1019–1037, 2025.])
-  #pub(6, [Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Clients (with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen). _Public Administration_ 103(1): 94–114, 2025.])
-  #pub(5, [Measuring Burden Tolerance: Developing an Instrument across Seven Countries\* (with Martin Bækgaard and Donald Moynihan). _Public Administration Review_ 85(2): 519–546, 2025.])
+  #pub(8, [Acceptable or Not? Understanding Attitudes Toward Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_, 2025.])
+  #pub(7, [Taxing Language: Do Interpreting Fees Affect Immigrant Healthcare Usage? Evidence from a Regression Discontinuity Design.\* _Public Administration Review_ 85(4): 1019–1037, 2025.])
+  #pub(6, [Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Citizens (with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen). _Public Administration_ 103(1): 94–114, 2025.])
+  #pub(5, [Burden Tolerance: Developing a Validated Measurement Instrument across Seven Countries\* (with Martin Bækgaard and Donald Moynihan). _Public Administration Review_ 85(2): 519–546, 2025.])
   #pub(4, [Administrative byrder i mødet med lægen: oplevelser af efterlevelsesomkostninger blandt borgere med dårligt helbred.\* _Politica_ 56(4): 318–336, 2024.])
-  #pub(3, [Frontline Employees' Responses to Citizens' Communication of Burdens\* (with Niels Bjørn Grund Petersen). _Public Administration Review_ 84(6): 1017–1037, 2024.])
+  #pub(3, [Frontline Employees' Responses to Citizens' Communication of Administrative Burdens\* (with Niels Bjørn Grund Petersen). _Public Administration Review_ 84(6): 1017–1037, 2024.])
   #pub(2, [Administrative Burden in Citizen-State Interactions: A Systematic Literature Review\* (with Martin Bækgaard). _Journal of Public Administration Research and Theory_ 34(2): 180–195, 2024.])
   #pub(1, [How Difficult Should It Be? Evidence of Burden Tolerance from a Nationally Representative Sample\* (with Pamela Herd and Donald Moynihan). _Public Management Review_ 25(11): 2053–2072, 2023.])
   #v(0.05cm)
@@ -117,9 +117,9 @@ format:
 #section("Working Papers")[
   No evidence of ethnic discrimination in Danish caseworkers' sanctioning intentions: a high-powered, preregistered survey experiment (with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen). R&R, _Journal of Behavioral Public Administration_.
   #v(0.2cm)
-  Personality as a Mechanism of Inequality in Experiences of Administrative Burdens. Under review.
+  Færre valgsteder, færre vælgere? Valgstedslukninger og valgdeltagelse fra 2007-2026 (with Lea Munksgaard Rubin). R&R, _Politica_.
   #v(0.2cm)
-  Færre valgsteder, færre vælgere? Valgstedslukninger og valgdeltagelse fra 2007-2026 (with Lea Munksgaard Rubin). Under review.
+  Personality as a Mechanism of Inequality in Experiences of Administrative Burdens. In progress.
   #v(0.2cm)
   "Everybody Should Be Able to Attend to Any Client, But…" – How Frontline Workers and Frontline Managers Interpret Citizens' Differential Treatment of Staff (with Mathilde Cecchini and Benedicte Gronhoj). In progress.
   #v(0.2cm)

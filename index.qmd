@@ -51,7 +51,7 @@ include-in-header:
 
 <p class="tagline">Assistant Professor · Aarhus University</p>
 
-I am an Assistant Professor at the [Department of Political Science](https://ps.au.dk) at Aarhus University. My research centers on encounters between citizens and the state, with three connected lines of work: the administrative burdens citizens experience when navigating public services; the legitimacy of those encounters and what demands citizens and policy makers consider acceptable; and how frontline workers perceive and respond to the citizens they serve.
+I am an Assistant Professor at the [Department of Political Science](https://ps.au.dk) at Aarhus University. My research centers on a basic feature of the modern state: it constantly makes demands of its citizens — to document, to comply, to wait, and to prove they deserve help. I study these demands along three connected agendas: which demands citizens, frontline workers, and policymakers regard as legitimate; how the demands are experienced by the citizens who face them; and how fairly people are treated in citizen–state encounters.
 
 I received my PhD from Aarhus University in 2023 and have published in journals such as *Public Administration Review*, *Journal of Public Administration Research and Theory*, and *Public Administration*. My work has been recognised with best paper awards at *Politica* (2024) and the ENPA Conference (2026).
 
@@ -79,17 +79,17 @@ I received my PhD from Aarhus University in 2023 and have published in journals 
 :::
 
 ::: item
-[Taxing Language: Do Interpreting Fees Affect Healthcare Usage? Evidence from a Regression Discontinuity Design]{.title}
+[Taxing Language: Do Interpreting Fees Affect Immigrant Healthcare Usage? Evidence from a Regression Discontinuity Design]{.title}
 
 [*Public Administration Review*, 85(4): 1019–1037, 2025]{.meta}
 :::
 
 ::: item
-[Acceptable or Not? Understanding Attitudes Towards Citizens' Discrimination Against Frontline Workers]{.title}
+[Acceptable or Not? Understanding Attitudes Toward Citizens' Discrimination Against Frontline Workers]{.title}
 
 [with Mathilde Cecchini and Benedicte Gronhoj · *Public Administration*, 2025]{.meta}
 :::
 
 :::
 
-[See all publications →](research.qmd){.btn .btn-outline-primary style="margin-top: 1rem;"}
+[Explore my research →](research-legitimacy.qmd){.btn .btn-outline-primary style="margin-top: 1rem;"}

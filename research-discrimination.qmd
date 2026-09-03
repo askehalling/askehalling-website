@@ -1,0 +1,62 @@
+---
+title: "Fairness and Discrimination in Citizen–State Encounters"
+pagetitle: "Fairness and Discrimination · Aske Halling"
+description-meta: "Research on how fairly citizens are treated in encounters with frontline workers — and on citizens' discrimination against staff."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://askehalling.com/research-discrimination.html">
+---
+
+The third agenda turns to how fairly people are treated in citizen–state encounters. Two directions of unequal treatment run through this work: whether frontline workers treat some citizens—the sick, or ethnic minorities—differently from others, and, less studied, whether citizens themselves discriminate against the frontline workers who serve them.
+
+::: card-list
+
+::: item
+[Acceptable or Not? Understanding Attitudes Toward Citizens' Discrimination Against Frontline Workers]{.title}
+
+[with Mathilde Cecchini and Benedicte Gronhoj · *Public Administration*, 2025](https://doi.org/10.1111/padm.70037){.meta}
+
+[[open access version](https://osf.io/preprints/socarxiv/gpsb6_v1)]{.meta}
+
+[Citizens sometimes discriminate against the workers who serve them, as when an elderly woman refuses care from a health worker with an ethnic-minority background. The phenomenon regularly reaches the political and media agenda, yet we know little about when the public finds it acceptable. In a survey experiment, we show that acceptance has a strong ideological component: people on the right are considerably more willing to accept members of the majority rejecting a minority worker.]{.description}
+:::
+
+::: item
+[Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Citizens]{.title}
+
+[with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen · *Public Administration*, 103(1): 94–114, 2025](https://doi.org/10.1111/padm.13004){.meta}
+
+[Deservingness research suggests that frontline workers treat clients more harshly when they hold them responsible for their own situation. In a pre-registered vignette experiment among 1,050 Danish caseworkers, we manipulate whether a client caught COVID-19 through his own behavior or through bad luck. The manipulation strongly shifts how responsible caseworkers hold the client, but it does not change their willingness to help or sanction him. Responsibility judgments, then, do not translate into frontline action as directly as the theory implies.]{.description}
+:::
+
+::: item
+[Frontline Employees' Responses to Citizens' Communication of Administrative Burdens]{.title}
+
+[with Niels Bjørn Grund Petersen · *Public Administration Review*, 84(6): 1017–1037, 2024](https://doi.org/10.1111/puar.13800){.meta}
+
+[When citizens find a process burdensome, they often say so to the caseworker handling their case. Using a pre-registered experiment among 1,048 Danish employment-agency caseworkers, we test whether communicating psychological costs changes how workers apply compliance demands. Caseworkers are more willing to reduce demands and to help citizens who voice these costs, which shows that experienced burden depends partly on how the encounter is handled, not on formal policy alone.]{.description}
+:::
+
+:::
+
+## Work in Progress
+
+::: card-list
+
+::: item
+[No Evidence of Ethnic Discrimination in Danish Caseworkers' Sanctioning Intentions: A High-Powered, Preregistered Survey Experiment]{.title}
+
+[with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen · *Journal of Behavioral Public Administration*, revise and resubmit]{.meta}
+
+[A recurring concern is that frontline caseworkers sanction ethnic-minority clients more readily than otherwise identical majority clients. This high-powered, pre-registered survey experiment tests for such discrimination in caseworkers' stated sanctioning intentions. Contrary to common expectations, we find no evidence of it. The study adds a well-powered null result to a literature that has often relied on smaller, less conclusive designs.]{.description}
+:::
+
+::: item
+["Everybody Should Be Able to Attend to Any Client, But…" – How Frontline Workers and Frontline Managers Interpret Citizens' Differential Treatment of Staff]{.title}
+
+[with Mathilde Cecchini and Benedicte Gronhoj · in progress]{.meta}
+
+[This qualitative project examines citizens' discrimination against frontline workers from the staff's own perspective. Drawing on interviews with frontline workers and managers, we ask how potentially discriminatory requests—a client asking not to be served by a particular staff member—are interpreted and handled on the frontline, and how workers experience being put in such situations.]{.description}
+:::
+
+:::

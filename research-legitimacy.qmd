@@ -1,0 +1,50 @@
+---
+title: "The Legitimacy of the State's Demands"
+pagetitle: "Legitimacy of the State's Demands · Aske Halling"
+description-meta: "Research on burden tolerance — which demands citizens, frontline workers, and policymakers regard as legitimate."
+aliases:
+  - research.html
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://askehalling.com/research-legitimacy.html">
+---
+
+The modern state constantly makes demands of its citizens, and people disagree about how far those demands should reasonably go. This agenda asks which demands citizens, frontline workers, and policymakers regard as legitimate and are willing to support — what the field calls burden tolerance. It speaks to the larger question my work revolves around: how demanding can a democratic state be while keeping the trust and legitimacy of those it serves?
+
+::: card-list
+
+::: item
+[Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands]{.title}
+
+[with Frederik Godt · *Policy Studies Journal*, conditionally accepted, 2026]{.meta}
+
+[[preprint](https://osf.io/preprints/socarxiv/ktb2v_v1)]{.meta}
+
+[A common rationale for tough compliance demands in welfare programs is that, by signaling program integrity and guarding against fraud, they reassure the public and build trust in government. We test that rationale directly. The demands do raise citizens' perceptions of procedural fairness, but this does not carry over into greater trust in government. The results question the case for using burdensome procedures to build legitimacy.]{.description}
+:::
+
+::: item
+[Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers]{.title}
+
+[with Steven van de Walle · *Social Policy and Administration*, 60(1): 12–26, 2026](https://doi.org/10.1111/spol.13137){.meta}
+
+[Policymakers design the procedures that organize citizens' encounters with the state, yet we know little about what makes them willing to impose burdens. Using a survey experiment among local politicians in Flanders, we show that policymakers become more tolerant of burdens when given a justification for them. Justifications that appeal to protecting public budgets are especially effective, and they work more strongly among right-wing than left-wing politicians.]{.description}
+:::
+
+::: item
+[Burden Tolerance: Developing a Validated Measurement Instrument across Seven Countries]{.title}
+
+[with Martin Bækgaard and Donald Moynihan · *Public Administration Review*, 85(2): 519–546, 2025](https://doi.org/10.1111/puar.13835){.meta}
+
+[Cumulative knowledge about burden tolerance has been held back by the absence of a validated way to measure it. Drawing on 12 surveys across seven countries, we develop and validate a compact four-item scale of people's acceptance of state-imposed burdens. Tolerance varies widely across countries but follows consistent patterns: it is higher among men, the young, conservatives, and those who trust the state.]{.description}
+:::
+
+::: item
+[How Difficult Should It Be? Evidence of Burden Tolerance from a Nationally Representative Sample]{.title}
+
+[with Pamela Herd and Donald Moynihan · *Public Management Review*, 25(11): 2053–2072, 2023](https://doi.org/10.1080/14719037.2022.2056910){.meta}
+
+[While research had begun to ask how policymakers and bureaucrats think about burdens, far less was known about the public's own tolerance for them. Using a representative sample of US residents and the cases of Medicaid and SNAP, we find broad support for work requirements but weaker support for making benefits generally hard to access. Conservatives, those opposed to social policy, and higher-income respondents are more tolerant, while people with personal experience of welfare are markedly less so.]{.description}
+:::
+
+:::

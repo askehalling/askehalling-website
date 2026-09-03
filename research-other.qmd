@@ -1,0 +1,20 @@
+---
+title: "Other Work"
+pagetitle: "Other Work · Aske Halling"
+description-meta: "Other ongoing research on Danish democracy and political behavior."
+include-in-header:
+  text: |
+    <link rel="canonical" href="https://askehalling.com/research-other.html">
+---
+
+::: card-list
+
+::: item
+[How Representative Are Politically Active Social Media Users? A Descriptive Large-Scale Study of Danish Twitter Users]{.title}
+
+[with Michael Bang Petersen and Stig Hebbelstrup Rye Rasmussen · in progress]{.meta}
+
+[Political debate on social media is often read as a reflection of public opinion, even though the people who produce it may not resemble the population at large. Linking a large sample of Danish Twitter users to population data, this descriptive study documents how the politically active social-media public differs from ordinary citizens.]{.description}
+:::
+
+:::

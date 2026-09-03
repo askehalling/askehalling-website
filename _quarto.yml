@@ -17,8 +17,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
+      - text: Research
+        menu:
+          - href: research-legitimacy.qmd
+            text: "Legitimacy of State Demands"
+          - href: research-experiences.qmd
+            text: "Experiences of Administrative Burden"
+          - href: research-discrimination.qmd
+            text: "Fairness & Discrimination"
+          - href: research-other.qmd
+            text: "Other Work"
       - href: cv.qmd
         text: CV
     right:
