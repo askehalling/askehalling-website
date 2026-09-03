@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Selvbetjening – Styrelsen for Selvbetjening og Digitale Borgerløsninger</title>
+<style>
+  :root{
+    --blaa:#0a3d62; --blaa2:#12557f; --graa:#f2f3f5; --graa2:#e3e6ea;
+    --tekst:#1b1f24; --advarsel:#8a1c1c; --gron:#1e6b3a; --kant:#c9ced6;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--graa); color:var(--tekst); line-height:1.5;
+    -webkit-text-size-adjust:100%;
+  }
+  header{
+    background:var(--blaa); color:#fff; padding:.7rem 1rem;
+    display:flex; align-items:center; gap:.6rem;
+  }
+  header .krone{font-size:1.4rem; line-height:1}
+  header .navn{font-weight:700; font-size:.95rem; letter-spacing:.2px}
+  header .navn small{display:block; font-weight:400; opacity:.85; font-size:.72rem}
+  .bar{background:var(--blaa2); color:#fff; font-size:.72rem; padding:.25rem 1rem; opacity:.95}
+  .progress{height:8px; background:var(--graa2)}
+  .progress > div{height:100%; background:var(--gron); width:0; transition:width .4s}
+  main{max-width:640px; margin:0 auto; padding:1rem 1rem 3rem}
+  .kort{background:#fff; border:1px solid var(--kant); border-radius:6px; padding:1.2rem; margin-top:1rem}
+  h1{font-size:1.35rem; margin:.2rem 0 .6rem; color:var(--blaa)}
+  h2{font-size:1.1rem; margin:.1rem 0 .6rem; color:var(--blaa)}
+  p{margin:.5rem 0}
+  .lille{font-size:.82rem; color:#555}
+  .paragraf{background:var(--graa); border-left:3px solid var(--kant); padding:.7rem .9rem;
+    font-size:.8rem; color:#3a3f45; max-height:160px; overflow:auto; margin:.6rem 0}
+  label.felt{display:block; margin:.7rem 0 .2rem; font-weight:600; font-size:.9rem}
+  input[type=text],input[type=tel],select{
+    width:100%; padding:.7rem; font-size:1rem; border:1px solid var(--kant);
+    border-radius:4px; background:#fff;
+  }
+  .tjek{display:flex; align-items:flex-start; gap:.6rem; margin:.7rem 0; font-size:.88rem}
+  .tjek input{margin-top:.25rem; transform:scale(1.3)}
+  button{
+    background:var(--blaa); color:#fff; border:0; border-radius:4px;
+    padding:.8rem 1.2rem; font-size:1rem; font-weight:600; cursor:pointer; margin-top:1rem;
+  }
+  button:active{transform:translateY(1px)}
+  button.sekundaer{background:#fff; color:var(--blaa); border:1px solid var(--blaa)}
+  .fejl{background:#fdecec; border:1px solid #e6b3b3; color:var(--advarsel);
+    padding:.6rem .8rem; border-radius:4px; font-size:.85rem; margin:.6rem 0; display:none}
+  .spinner{width:34px; height:34px; border:4px solid var(--graa2); border-top-color:var(--blaa);
+    border-radius:50%; animation:spin 1s linear infinite; margin:1.2rem auto}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .kvit{font-family:ui-monospace,Menlo,Consolas,monospace; background:var(--graa); padding:.4rem .6rem; border-radius:4px; display:inline-block}
+  .cookie{position:fixed; bottom:0; left:0; right:0; background:#fff; border-top:2px solid var(--blaa);
+    padding:1rem; font-size:.82rem; z-index:50}
+  .cookie button{margin:.4rem .4rem 0 0; padding:.6rem .9rem; font-size:.85rem}
+  .afslør{background:#eaf5ee; border:1px solid #bfe0cb}
+  .kost{margin:.8rem 0; padding:.8rem; background:#fff; border:1px solid var(--kant); border-radius:5px}
+  .kost b{color:var(--blaa)}
+  .skjul{display:none}
+  footer{color:#7a828c; font-size:.72rem; text-align:center; padding:1.5rem 1rem 2rem}
+  .stempel{display:inline-block; transform:rotate(-6deg); border:3px solid var(--advarsel);
+    color:var(--advarsel); font-weight:800; padding:.2rem .6rem; border-radius:4px; letter-spacing:1px; font-size:1rem}
+  .menti{background:var(--blaa); color:#fff; padding:1rem; border-radius:6px; text-align:center; margin-top:1rem}
+  .menti b{font-size:1.2rem}
+</style>
+</head>
+<body>
+
+<header>
+  <span class="krone">⚜️</span>
+  <span class="navn">Styrelsen for Selvbetjening og Digitale Borgerløsninger
+    <small>— en styrelse under Ministeriet for Mellemværender</small></span>
+</header>
+<div class="bar">Åbningstid for digital selvbetjening: alle hverdage kl. 9.03–9.47 · Sagsbehandlingstid: op til 14 uger · Version 7.3.1-b (fejlrettet)</div>
+<div class="progress"><div id="pbar"></div></div>
+
+<main id="app"></main>
+
+<!-- Cookie-banner -->
+<div class="cookie" id="cookie">
+  <b>Samtykke til databehandling.</b> Denne selvbetjeningsløsning anvender 47 nødvendige cookies,
+  9 delvist nødvendige cookies og 3 cookies, hvis nødvendighed er under afklaring i et tværministerielt udvalg.
+  Ved at fortsætte samtykker du til alt, herunder fremtidige cookies der endnu ikke er opfundet.
+  <div>
+    <button onclick="lukCookie()">Jeg accepterer alle 59 cookies</button>
+    <button class="sekundaer" onclick="afvisCookie()">Afvis unødvendige</button>
+  </div>
+</div>
+
+<footer>
+  Fiktiv undervisningsøvelse om administrative byrder · Aske Halling ·
+  enhver lighed med eksisterende myndigheder er tilstræbt
+</footer>
+
+<script>
+"use strict";
+
+/* ---------- tilstand ---------- */
+var start = null;
+var mitidForsøg = 0;
+var indsendForsøg = 0;
+var felterUdfyldt = 0;
+var skridt = 0;
+var totalSkridt = 5; // "af 5" — bliver snigende til 7 senere
+
+function nu(){ return Date.now(); }
+function startUr(){ if(!start) start = nu(); }
+function minutter(){
+  var s = Math.max(1, Math.round((nu()-start)/60000));
+  return s;
+}
+function sekunder(){ return Math.round((nu()-start)/1000); }
+
+/* ---------- cookie ---------- */
+function lukCookie(){ document.getElementById('cookie').style.display='none'; startUr(); vis('forside'); }
+function afvisCookie(){
+  var c = document.getElementById('cookie');
+  c.innerHTML = "<b>Det var desværre ikke muligt at afvise.</b> De 47 nødvendige cookies er, som navnet antyder, nødvendige. "
+    + "De 9 delvist nødvendige er delvist nødvendige. De 3 uafklarede kan ikke fravælges, før udvalgets betænkning foreligger (forventet 2029). "
+    + "<div><button onclick='lukCookie()'>Jeg accepterer alligevel</button></div>";
+}
+
+/* ---------- progress ---------- */
+function sætProgress(pct){ document.getElementById('pbar').style.width = pct + '%'; }
+
+/* ---------- render-hjælper ---------- */
+function vis(html){
+  if(typeof html === 'string' && SCREENS[html]) html = SCREENS[html]();
+  document.getElementById('app').innerHTML = html;
+  window.scrollTo(0,0);
+}
+
+/* ---------- skærme ---------- */
+var SCREENS = {};
+
+SCREENS.forside = function(){
+  sætProgress(5);
+  return `
+  <div class="kort">
+    <h1>Ansøg om Almindeligt Basistilskud (ABT)</h1>
+    <p>Velkommen til den digitale selvbetjeningsløsning for Almindeligt Basistilskud.</p>
+    <p class="lille">Almindeligt Basistilskud er et almindeligt tilskud til almindelige formål for borgere,
+    der opfylder de almindelige betingelser, jf. bekendtgørelse nr. 1408 om almindelige tilskud.</p>
+    <p>Inden du går i gang, bør du have følgende klar:</p>
+    <ul class="lille">
+      <li>MitADD (digital signatur, 2. generation)</li>
+      <li>Din seneste årsopgørelse (bilag 4B)</li>
+      <li>Dokumentation for bopæl (attesteret)</li>
+      <li>Ca. 45 minutter i god ro og orden</li>
+    </ul>
+    <button onclick="vis('vilkaar')">Start ansøgning →</button>
+    <p class="lille" style="margin-top:1rem">Har du spørgsmål? Ring til Borgerlinjen på hverdage kl. 9.03–9.47.
+    Bemærk: telefonen er lukket i tidsrummet 9.15–9.40 grundet frokost.</p>
+  </div>`;
+};
+
+SCREENS.vilkaar = function(){
+  skridt = 1; sætProgress(20);
+  return `
+  <div class="kort">
+    <div class="lille">Trin ${skridt} af ${totalSkridt}</div>
+    <h2>Vilkår og betingelser</h2>
+    <div class="paragraf">
+      § 7. Ansøger skal opfylde stk. 3 samt, medmindre andet følger af stk. 4, tillige stk. 4.<br><br>
+      Stk. 3. Ved opfyldelse forstås den tilstand, hvori de i stk. 2 nævnte forhold ikke ikke er til stede,
+      jf. dog § 12 a, litra c, sammenholdt med § 3.<br><br>
+      Stk. 4. Uanset stk. 3 anses ansøger for ikke at opfylde stk. 3, såfremt ansøger ikke har fravalgt
+      ikke at modtage digital post om fravalg af tilvalg.<br><br>
+      Stk. 5. Definitionen af "almindelig" fastlægges af styrelsen fra sag til sag og kan ikke påklages.
+    </div>
+    <label class="tjek"><input type="checkbox" id="v1">
+      Jeg har læst og forstået ovenstående vilkår.</label>
+    <label class="tjek"><input type="checkbox" id="v2">
+      Jeg bekræfter, at jeg <b>ikke</b> undlader at fravælge at modtage digital post om fravalg (jf. § 7, stk. 4).</label>
+    <label class="tjek"><input type="checkbox" id="v3">
+      Jeg erklærer på tro og love, at oplysningerne bliver korrekte, når jeg indtaster dem senere.</label>
+    <div class="fejl" id="fejl">Du skal acceptere samtlige vilkår for at fortsætte. Alle tre.</div>
+    <button onclick="vilkaarNext()">Fortsæt →</button>
+  </div>`;
+};
+function vilkaarNext(){
+  var ok = document.getElementById('v1').checked
+        && document.getElementById('v2').checked
+        && document.getElementById('v3').checked;
+  if(!ok){ document.getElementById('fejl').style.display='block'; return; }
+  vis('mitid');
+}
+
+SCREENS.mitid = function(){
+  skridt = 2; sætProgress(35);
+  return `
+  <div class="kort" style="text-align:center">
+    <div class="lille" style="text-align:left">Trin ${skridt} af ${totalSkridt}</div>
+    <h2>Log ind med MitADD</h2>
+    <p class="lille">Du bliver nu viderestillet til NemLog-in⁴ (fjerde generation).</p>
+    <label class="felt" style="text-align:left">Bruger-ID</label>
+    <input type="text" id="bruger" placeholder="Dit selvvalgte bruger-ID (eller e-Boks-alias)">
+    <button onclick="mitidLogin()">Log ind →</button>
+  </div>`;
+};
+function mitidLogin(){
+  vis(`<div class="kort" style="text-align:center">
+    <div class="spinner"></div>
+    <p class="lille">Forbinder til NemLog-in⁴ …</p>
+    <p class="lille">Vent venligst. Luk ikke vinduet. Gå ikke tilbage. Træk ikke vejret for hurtigt.</p>
+  </div>`);
+  var ventetid = 2600 + Math.random()*2600;
+  setTimeout(function(){
+    mitidForsøg++;
+    if(mitidForsøg < 2){
+      vis(`<div class="kort" style="text-align:center">
+        <p class="fejl" style="display:block">Der opstod en uventet fejl (fejlkode E-9003: uventet fejl).
+        Din session er udløbet. Prøv igen.</p>
+        <button onclick="mitidLogin()">Prøv igen →</button>
+        <p class="lille">Fejlen er kendt og bliver løst i en kommende version.</p>
+      </div>`);
+    } else {
+      vis('stamdata');
+    }
+  }, ventetid);
+}
+
+SCREENS.stamdata = function(){
+  skridt = 3; totalSkridt = 7; sætProgress(50); // afsløret: der er flere trin end lovet
+  return `
+  <div class="kort">
+    <div class="lille">Trin ${skridt} af ${totalSkridt}</div>
+    <h2>Stamoplysninger</h2>
+    <p class="lille">Alle felter er obligatoriske, medmindre andet ikke er angivet.</p>
+    <label class="felt">Fulde navn, som det fremgår af dåbsattest eller tilsvarende</label>
+    <input type="text" id="navn">
+    <label class="felt">Mors pigenavn (til intern validering)</label>
+    <input type="text" id="mor">
+    <label class="felt">Antal gange du har skiftet folkeregisteradresse siden 2009</label>
+    <input type="tel" id="flyt">
+    <label class="felt">Din bopælskommune</label>
+    <select id="kommune">
+      <option value="">— Vælg —</option>
+      <option>Aarhus</option><option>København</option><option>Odense</option>
+      <option>Aalborg</option><option>Esbjerg</option><option>En anden</option>
+      <option>Ved ikke</option>
+    </select>
+    <label class="felt">Ønsket sagsbehandlingssprog</label>
+    <select id="sprog"><option>Kancellidansk</option><option>Bekendtgørelsesdansk</option><option>Rundskrivelsesdansk</option></select>
+    <div class="fejl" id="fejl2"></div>
+    <button onclick="stamNext()">Indsend oplysninger →</button>
+  </div>`;
+};
+function stamNext(){
+  // tæl udfyldte felter
+  var ids = ['navn','mor','flyt'];
+  felterUdfyldt = 0;
+  ids.forEach(function(i){ var el=document.getElementById(i); if(el && el.value.trim()) felterUdfyldt++; });
+  if(document.getElementById('kommune').value) felterUdfyldt++;
+
+  indsendForsøg++;
+  var f = document.getElementById('fejl2');
+  if(indsendForsøg < 2){
+    // første forsøg fejler ALTID – og nulstiller de "følsomme" felter
+    document.getElementById('mor').value = '';
+    document.getElementById('flyt').value = '';
+    f.style.display='block';
+    f.innerHTML = "Feltet &quot;Mors pigenavn&quot; kunne ikke valideres mod folkeregisteret. "
+      + "Bemærk desuden, at antal adresseskift skal skrives med bogstaver (f.eks. &quot;tre&quot;), ikke med tal. "
+      + "Af sikkerhedshensyn er visse felter nulstillet. Udfyld venligst forfra.";
+    window.scrollTo(0,0);
+    return;
+  }
+  vis('upload');
+}
+
+SCREENS.upload = function(){
+  skridt = 4; sætProgress(62);
+  return `
+  <div class="kort">
+    <div class="lille">Trin ${skridt} af ${totalSkridt}</div>
+    <h2>Vedhæft dokumentation</h2>
+    <p class="lille">Følgende bilag skal vedhæftes. Filer må maks. fylde 2 MB og skal være i formatet PDF/A-3b.</p>
+    <label class="felt">Bilag 4B: Seneste årsopgørelse</label>
+    <input type="text" readonly placeholder="Ingen fil valgt" onclick="fejlUpload(this)">
+    <label class="felt">Dokumentation for bopæl (attesteret af to vidner)</label>
+    <input type="text" readonly placeholder="Ingen fil valgt" onclick="fejlUpload(this)">
+    <label class="felt">Vellignende portrætfoto i gråtoner (neutralt ansigtsudtryk)</label>
+    <input type="text" readonly placeholder="Ingen fil valgt" onclick="fejlUpload(this)">
+    <div class="fejl" id="fejl3" style="display:block">
+      Tip: Har du ikke bilagene ved hånden lige nu? Det har næsten ingen. Du kan fortsætte uden —
+      det påvirker sandsynligvis din sag på en måde, der ikke oplyses her.
+    </div>
+    <button onclick="vis('venter')">Fortsæt uden alle bilag →</button>
+    <button class="sekundaer" onclick="fejlUpload()">Vedhæft filer</button>
+  </div>`;
+};
+function fejlUpload(){
+  alert("Filvælgeren kunne ikke åbnes. Prøv at logge ind igen (trin 2), eller benyt en anden enhed, en anden browser eller en anden dag.");
+}
+
+SCREENS.venter = function(){
+  skridt = 5; sætProgress(78);
+  var kvit = 'ABT-' + (new Date().getFullYear()) + '-' + Math.floor(100000+Math.random()*899999);
+  window._kvit = kvit;
+  return `
+  <div class="kort" style="text-align:center">
+    <div class="lille" style="text-align:left">Trin ${skridt} af ${totalSkridt}</div>
+    <div class="spinner"></div>
+    <h2>Din ansøgning modtages …</h2>
+    <p>Dit sagsnummer er:</p>
+    <p><span class="kvit">${kvit}</span></p>
+    <p class="lille">Estimeret ventetid: <b>14 uger</b>. Du kan følge din sag ved at logge ind igen
+    (se trin 2). Du modtager ikke besked, medmindre du har fravalgt ikke at modtage besked.</p>
+    <button onclick="afgør()">Se status nu</button>
+  </div>`;
+};
+
+/* ---------- tilfældigt udfald: ingen kommer igennem ---------- */
+var UDFALD = [
+  { t:"Afslag", b:"Bilag 4B blev afvist, da det var vedhæftet i PDF/A-3b og ikke, som krævet, i PDF/A-3b." },
+  { t:"Sendt til forkert kommune", b:"Din ansøgning er sendt til den kommune, du bor i. Ansøgninger skal sendes til den kommune, hvor sagen behandles. Start forfra." },
+  { t:"Sat i bero", b:"Sagsbehandlingen er midlertidigt sat i bero grundet en omorganisering af det kontor, der skulle have behandlet din sag." },
+  { t:"Delvist afslag", b:"Du opfylder § 7, stk. 3, men ikke § 7, stk. 4. Se den uddybende vejledning (vejledningen er under udarbejdelse)." },
+  { t:"Teknisk fejl", b:"Din sag kunne ikke oprettes (fejlkode E-0000: ingen fejl fundet). Sagsnummeret er hermed annulleret." }
+];
+function afgør(){
+  var u = UDFALD[Math.floor(Math.random()*UDFALD.length)];
+  skridt = 6; sætProgress(40); // baren GÅR TILBAGE
+  vis(`
+  <div class="kort" style="text-align:center">
+    <div class="lille" style="text-align:left">Trin ${skridt} af ${totalSkridt} (foreløbig)</div>
+    <p><span class="stempel">${u.t.toUpperCase()}</span></p>
+    <h2>${u.t}</h2>
+    <p>${u.b}</p>
+    <p class="lille">Ansøgning ikke gennemført. Afgørelsen kan påklages inden 4 uger til det organ,
+    der traf afgørelsen, som vil vurdere sin egen afgørelse.</p>
+    <button onclick="vis('forside')">Start forfra</button>
+    <button class="sekundaer" onclick="afslør()">Jeg giver op</button>
+  </div>`);
+}
+
+/* ---------- afsløring / debrief ---------- */
+function afslør(){
+  sætProgress(100);
+  var min = minutter();
+  var score = felterUdfyldt*7 + mitidForsøg*11 + indsendForsøg*13 + 42;
+  vis(`
+  <div class="kort afslør">
+    <h1>🎓 Tak — det var en øvelse</h1>
+    <p><b>Og nej, du kunne ikke komme igennem.</b> Det var meningen. Sådan føles en administrativ byrde.</p>
+    <p class="lille">Du brugte ca. <b>${min} min.</b>, loggede ind <b>${mitidForsøg}</b> gang(e),
+    indsendte oplysninger <b>${indsendForsøg}</b> gang(e) og nåede et byrde-indeks på <b>${score}</b>
+    (skalaen er opdigtet, ligesom ydelsen).</p>
+
+    <h2>Det du lige oplevede — de tre omkostninger</h2>
+
+    <div class="kost"><b>Learning costs</b> — at finde ud af hvad reglerne betyder.<br>
+    <span class="lille">§ 7 med dobbelte negationer, en udefineret "almindelig", og gæt om hvilken kommune der behandler din sag.</span></div>
+
+    <div class="kost"><b>Compliance costs</b> — tid, dokumenter og handlinger for at efterleve kravene.<br>
+    <span class="lille">Login (to gange), 5+ felter, nulstillede oplysninger, bilag 4B og en attesteret bopælsattest, du næppe havde.</span></div>
+
+    <div class="kost"><b>Psychological costs</b> — stress, afmagt og følelsen af at være til besvær.<br>
+    <span class="lille">14 ugers uvished, et afslag på en teknikalitet, og en klageadgang til det organ, der lige har afvist dig.</span></div>
+
+    <p style="margin-top:1rem"><b>Til diskussion i gruppen:</b></p>
+    <ul class="lille">
+      <li>Hvilken af de tre omkostninger ramte dig hårdest?</li>
+      <li>Forestil dig, at du var stresset, syg, eller ikke havde dansk som modersmål — hvor ville du være faldet fra?</li>
+      <li>Hvem tror du reelt giver op i sådan et system — og hvem kæmper sig igennem?</li>
+    </ul>
+
+    <div class="menti">
+      <div>Gå til <b>menti.com</b></div>
+      <div class="lille" style="opacity:.9">Indtast koden fra skærmen og svar på: hvilken følelse sad du med til sidst?</div>
+    </div>
+
+    <p class="lille" style="margin-top:1rem">Fiktiv undervisningsøvelse · Aske Halling · 2026</p>
+  </div>`);
+}
+
+/* ---------- init ---------- */
+sætProgress(5);
+</script>
+</body>
+</html>

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - files/byrdespil-7f3k9q/
 
 website:
   title: "Aske Halling"
