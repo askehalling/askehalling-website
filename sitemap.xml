@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://askehalling.com/cv.html</loc>
-    <lastmod>2026-08-03T07:30:53.232Z</lastmod>
+    <loc>https://askehalling.com/research-other.html</loc>
+    <lastmod>2026-09-03T09:14:57.432Z</lastmod>
   </url>
   <url>
-    <loc>https://askehalling.com/research.html</loc>
-    <lastmod>2026-08-24T19:05:48.330Z</lastmod>
+    <loc>https://askehalling.com/research-experiences.html</loc>
+    <lastmod>2026-09-03T09:22:58.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://askehalling.com/research-legitimacy.html</loc>
+    <lastmod>2026-09-03T09:13:55.247Z</lastmod>
   </url>
   <url>
     <loc>https://askehalling.com/teaching.html</loc>
@@ -14,6 +18,14 @@
   </url>
   <url>
     <loc>https://askehalling.com/</loc>
-    <lastmod>2026-08-03T07:47:19.384Z</lastmod>
+    <lastmod>2026-09-03T09:07:08.653Z</lastmod>
+  </url>
+  <url>
+    <loc>https://askehalling.com/cv.html</loc>
+    <lastmod>2026-09-03T08:42:50.927Z</lastmod>
+  </url>
+  <url>
+    <loc>https://askehalling.com/research-discrimination.html</loc>
+    <lastmod>2026-09-03T09:14:52.191Z</lastmod>
   </url>
 </urlset>
