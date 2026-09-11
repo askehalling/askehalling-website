@@ -101,7 +101,7 @@ format:
   #pub(11, [Burden Without Backlash? Trust and Procedural Fairness in Response to Welfare Compliance Demands (with Frederik Godt). Conditionally accepted in _Policy Studies Journal_, 2026.])
   #pub(10, [Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden (with Frederik Godt). _International Public Management Journal_, 2026.])
   #pub(9, [Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers\* (with Steven van de Walle). _Social Policy and Administration_ 60(1): 12–26, 2026.])
-  #pub(8, [Acceptable or Not? Understanding Attitudes Toward Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_, 2025.])
+  #pub(8, [Acceptable or Not? Understanding Attitudes Toward Citizens' Discrimination Against Frontline Workers (with Mathilde Cecchini and Benedicte Gronhoj). _Public Administration_ 104(3): 459–475, 2026.])
   #pub(7, [Taxing Language: Do Interpreting Fees Affect Immigrant Healthcare Usage? Evidence from a Regression Discontinuity Design.\* _Public Administration Review_ 85(4): 1019–1037, 2025.])
   #pub(6, [Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Citizens (with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen). _Public Administration_ 103(1): 94–114, 2025.])
   #pub(5, [Burden Tolerance: Developing a Validated Measurement Instrument across Seven Countries\* (with Martin Bækgaard and Donald Moynihan). _Public Administration Review_ 85(2): 519–546, 2025.])
