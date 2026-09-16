@@ -8,12 +8,12 @@ format:
 ```{=typst}
 // ── Palette and fonts ─────────────────────────────────────────────────────────
 #let accent = rgb("#1F4E5F")
-#let body-font  = ("Source Serif 4", "New Computer Modern", "Georgia")
+#let body-font  = ("Source Serif 4 14pt", "Source Serif 4", "Georgia")
 #let label-font = ("Source Sans 3", "Helvetica Neue", "Arial")
 #let muted = luma(105)
 
 #set page(
-  margin: (x: 2.0cm, y: 1.9cm),
+  margin: (x: 2.4cm, y: 1.9cm),
   footer: context [
     #set text(font: label-font, size: 8pt, fill: luma(120))
     #grid(
@@ -24,8 +24,8 @@ format:
     )
   ]
 )
-#set text(font: body-font, size: 10.5pt, lang: "en")
-#set par(leading: 0.64em, justify: false)
+#set text(font: body-font, size: 10.875pt, lang: "en")
+#set par(leading: 1.0em, justify: false)
 #show link: set text(fill: accent)
 
 // ── Building blocks ───────────────────────────────────────────────────────────
@@ -46,7 +46,7 @@ format:
 
 // Rows of (left-column label, content). Left column holds years or status.
 #let rows(items) = grid(
-  columns: (1.8cm, 1fr),
+  columns: (1.9cm, 1fr),
   column-gutter: 0.42cm,
   row-gutter: 0.30cm,
   ..items.map(p => (align(top + left)[#side(p.at(0))], p.at(1))).flatten()
@@ -54,15 +54,15 @@ format:
 
 // Position / degree: bold title over italic affiliation
 #let role(title, org) = [
-  *#title* \
+  #text(weight: 600)[#title] \
   #text(style: "italic", fill: luma(85))[#org]
 ]
 
 #let au = [Department of Political Science, Aarhus University]
 
 // Spacing: between sections inside a block, and between blocks
-#let gap = v(0.62cm)
-#let blockgap = v(1.05cm)
+#let gap = v(0.69cm)
+#let blockgap = v(1.27cm)
 
 // ── Header: name left, contact right, rule across the full measure ───────────
 #grid(
