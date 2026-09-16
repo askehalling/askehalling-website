@@ -2,6 +2,7 @@
 format:
   typst:
     paper: a4
+    font-paths: [fonts]
 ---
 
 ```{=typst}
