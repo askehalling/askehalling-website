@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - files/byrdespil-7f3k9q/
+    - cv.html
 
 website:
   title: "Aske Halling"
@@ -29,7 +30,7 @@ website:
             text: "Fairness & Discrimination"
           - href: research-other.qmd
             text: "Other Work"
-      - href: cv.qmd
+      - href: cv.html
         text: CV
     right:
       - icon: envelope

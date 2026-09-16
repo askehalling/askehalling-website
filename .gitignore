@@ -3,6 +3,7 @@ _site/
 .DS_Store
 *.html
 !index.html
+!cv.html
 
 /.quarto/
 **/*.quarto_ipynb
