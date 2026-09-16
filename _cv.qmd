@@ -167,13 +167,17 @@ format:
 #gap
 
 #section("Conference Participation")[
-  #h(2.22cm) ENPA (2026) · EGPA (2018, 2019, 2021, 2022) · PMRC (2019, 2022) · DPSA (2019, 2021, 2023) · NIG (2021)
+  #rows((
+    ("", [ENPA (2026) · EGPA (2018, 2019, 2021, 2022) · PMRC (2019, 2022) · DPSA (2019, 2021, 2023) · NIG (2021)]),
+  ))
 ]
 #blockgap
 
 // ── Block 3: service, teaching, supervision ──────────────────────────────────
 #section("Reviewer Experience")[
-  #h(2.22cm) Journal of Public Administration Research and Theory · Public Administration Review · Policy Studies Journal · Journal of Politics · British Journal of Political Science · Public Administration · Journal of Policy Analysis and Management · Public Management Review · Perspectives on Public Management and Governance · International Public Management Journal · Social Policy and Administration · Journal of Behavioural Public Administration · Nonprofit and Voluntary Sector Quarterly · Public Performance and Management Review · Governance · Israel Science Foundation · Journal of Public Policy · Social Science and Medicine · Administrative Theory & Praxis
+  #rows((
+    ("", [Journal of Public Administration Research and Theory · Public Administration Review · Policy Studies Journal · Journal of Politics · British Journal of Political Science · Public Administration · Journal of Policy Analysis and Management · Public Management Review · Perspectives on Public Management and Governance · International Public Management Journal · Social Policy and Administration · Journal of Behavioural Public Administration · Nonprofit and Voluntary Sector Quarterly · Public Performance and Management Review · Governance · Israel Science Foundation · Journal of Public Policy · Social Science and Medicine · Administrative Theory & Praxis]),
+  ))
 ]
 #gap
 

@@ -10,7 +10,7 @@ $link-hover-color: #D4A574;
 
 // Typography
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-$font-family-serif: "Georgia", "Source Serif Pro", serif;
+$font-family-serif: "Source Serif 4", Georgia, serif;
 $font-family-base: $font-family-serif;
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 600;
@@ -30,7 +30,7 @@ $code-bg: #F4F0E8;
 
 /*-- scss:rules --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap');
 
 body {
   font-family: $font-family-serif;
