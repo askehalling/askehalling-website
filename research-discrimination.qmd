@@ -12,6 +12,14 @@ The third agenda turns to how fairly people are treated in citizen–state encou
 ::: card-list
 
 ::: item
+[No Evidence of Ethnic Discrimination in Danish Caseworkers' Sanctioning Intentions: A High-Powered Survey Experiment]{.title}
+
+[with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen · *Journal of Behavioral Public Administration*, forthcoming, 2026]{.meta}
+
+[A recurring concern is that frontline caseworkers sanction ethnic-minority clients more readily than otherwise identical majority clients. This high-powered, pre-registered survey experiment tests for such discrimination in caseworkers' stated sanctioning intentions. Contrary to common expectations, we find no evidence of it. The study adds a well-powered null result to a literature that has often relied on smaller, less conclusive designs.]{.description}
+:::
+
+::: item
 [Acceptable or Not? Understanding Attitudes Toward Citizens' Discrimination Against Frontline Workers]{.title}
 
 [with Mathilde Cecchini and Benedicte Gronhoj · *Public Administration*, 104(3): 459–475, 2026](https://doi.org/10.1111/padm.70037){.meta}
@@ -44,17 +52,9 @@ The third agenda turns to how fairly people are treated in citizen–state encou
 ::: card-list
 
 ::: item
-[No Evidence of Ethnic Discrimination in Danish Caseworkers' Sanctioning Intentions: A High-Powered, Preregistered Survey Experiment]{.title}
+[Responsive to Whom? Frontline Interpretations of Citizens' Differential Treatment of Staff]{.title}
 
-[with Julian Christensen, Frederik Godt, and Niels Bjørn Grund Petersen · *Journal of Behavioral Public Administration*, revise and resubmit]{.meta}
-
-[A recurring concern is that frontline caseworkers sanction ethnic-minority clients more readily than otherwise identical majority clients. This high-powered, pre-registered survey experiment tests for such discrimination in caseworkers' stated sanctioning intentions. Contrary to common expectations, we find no evidence of it. The study adds a well-powered null result to a literature that has often relied on smaller, less conclusive designs.]{.description}
-:::
-
-::: item
-["Everybody Should Be Able to Attend to Any Client, But…" – How Frontline Workers and Frontline Managers Interpret Citizens' Differential Treatment of Staff]{.title}
-
-[with Mathilde Cecchini and Benedicte Gronhoj · in progress]{.meta}
+[with Mathilde Cecchini and Benedicte Gronhoj · under review]{.meta}
 
 [This qualitative project examines citizens' discrimination against frontline workers from the staff's own perspective. Drawing on interviews with frontline workers and managers, we ask how potentially discriminatory requests—a client asking not to be served by a particular staff member—are interpreted and handled on the frontline, and how workers experience being put in such situations.]{.description}
 :::
