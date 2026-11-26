@@ -20,9 +20,9 @@ The third agenda turns to how fairly people are treated in citizen–state encou
 :::
 
 ::: item
-[Acceptable or Not? Understanding Attitudes Toward Citizens' Discrimination Against Frontline Workers]{.title}
+[[Acceptable or Not? Understanding Attitudes Toward Citizens' Discrimination Against Frontline Workers](https://doi.org/10.1111/padm.70037)]{.title}
 
-[with Mathilde Cecchini and Benedicte Gronhoj · *Public Administration*, 104(3): 459–475, 2026](https://doi.org/10.1111/padm.70037){.meta}
+[with Mathilde Cecchini and Benedicte Gronhoj · *Public Administration*, 104(3): 459–475, 2026]{.meta}
 
 [[open access version](https://osf.io/preprints/socarxiv/gpsb6_v1)]{.meta}
 
@@ -30,17 +30,17 @@ The third agenda turns to how fairly people are treated in citizen–state encou
 :::
 
 ::: item
-[Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Citizens]{.title}
+[[Deservingness at the Frontline: How Health-related Responsibility Cues Affect Sanctioning and Prioritization of Citizens](https://doi.org/10.1111/padm.13004)]{.title}
 
-[with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen · *Public Administration*, 103(1): 94–114, 2025](https://doi.org/10.1111/padm.13004){.meta}
+[with Julian Christensen, Frederik Godt Hansen, and Niels Bjørn Grund Petersen · *Public Administration*, 103(1): 94–114, 2025]{.meta}
 
 [Deservingness research suggests that frontline workers treat clients more harshly when they hold them responsible for their own situation. In a pre-registered vignette experiment among 1,050 Danish caseworkers, we manipulate whether a client caught COVID-19 through his own behavior or through bad luck. The manipulation strongly shifts how responsible caseworkers hold the client, but it does not change their willingness to help or sanction him. Responsibility judgments, then, do not translate into frontline action as directly as the theory implies.]{.description}
 :::
 
 ::: item
-[Frontline Employees' Responses to Citizens' Communication of Administrative Burdens]{.title}
+[[Frontline Employees' Responses to Citizens' Communication of Administrative Burdens](https://doi.org/10.1111/puar.13800)]{.title}
 
-[with Niels Bjørn Grund Petersen · *Public Administration Review*, 84(6): 1017–1037, 2024](https://doi.org/10.1111/puar.13800){.meta}
+[with Niels Bjørn Grund Petersen · *Public Administration Review*, 84(6): 1017–1037, 2024]{.meta}
 
 [When citizens find a process burdensome, they often say so to the caseworker handling their case. Using a pre-registered experiment among 1,048 Danish employment-agency caseworkers, we test whether communicating psychological costs changes how workers apply compliance demands. Caseworkers are more willing to reduce demands and to help citizens who voice these costs, which shows that experienced burden depends partly on how the encounter is handled, not on formal policy alone.]{.description}
 :::

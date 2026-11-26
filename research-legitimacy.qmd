@@ -24,25 +24,25 @@ The modern state constantly makes demands of its citizens, and people disagree a
 :::
 
 ::: item
-[Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers]{.title}
+[[Do Justifications Affect Tolerance for Administrative Burdens? Evidence from a Survey-Experiment Among Policy Makers](https://doi.org/10.1111/spol.13137)]{.title}
 
-[with Steven van de Walle · *Social Policy and Administration*, 60(1): 12–26, 2026](https://doi.org/10.1111/spol.13137){.meta}
+[with Steven van de Walle · *Social Policy and Administration*, 60(1): 12–26, 2026]{.meta}
 
 [Policymakers design the procedures that organize citizens' encounters with the state, yet we know little about what makes them willing to impose burdens. Using a survey experiment among local politicians in Flanders, we show that policymakers become more tolerant of burdens when given a justification for them. Justifications that appeal to protecting public budgets are especially effective, and they work more strongly among right-wing than left-wing politicians.]{.description}
 :::
 
 ::: item
-[Burden Tolerance: Developing a Validated Measurement Instrument across Seven Countries]{.title}
+[[Burden Tolerance: Developing a Validated Measurement Instrument across Seven Countries](https://doi.org/10.1111/puar.13835)]{.title}
 
-[with Martin Bækgaard and Donald Moynihan · *Public Administration Review*, 85(2): 519–546, 2025](https://doi.org/10.1111/puar.13835){.meta}
+[with Martin Bækgaard and Donald Moynihan · *Public Administration Review*, 85(2): 519–546, 2025]{.meta}
 
 [Cumulative knowledge about burden tolerance has been held back by the absence of a validated way to measure it. Drawing on 12 surveys across seven countries, we develop and validate a compact four-item scale of people's acceptance of state-imposed burdens. Tolerance varies widely across countries but follows consistent patterns: it is higher among men, the young, conservatives, and those who trust the state.]{.description}
 :::
 
 ::: item
-[How Difficult Should It Be? Evidence of Burden Tolerance from a Nationally Representative Sample]{.title}
+[[How Difficult Should It Be? Evidence of Burden Tolerance from a Nationally Representative Sample](https://doi.org/10.1080/14719037.2022.2056910)]{.title}
 
-[with Pamela Herd and Donald Moynihan · *Public Management Review*, 25(11): 2053–2072, 2023](https://doi.org/10.1080/14719037.2022.2056910){.meta}
+[with Pamela Herd and Donald Moynihan · *Public Management Review*, 25(11): 2053–2072, 2023]{.meta}
 
 [While research had begun to ask how policymakers and bureaucrats think about burdens, far less was known about the public's own tolerance for them. Using a representative sample of US residents and the cases of Medicaid and SNAP, we find broad support for work requirements but weaker support for making benefits generally hard to access. Conservatives, those opposed to social policy, and higher-income respondents are more tolerant, while people with personal experience of welfare are markedly less so.]{.description}
 :::

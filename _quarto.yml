@@ -44,10 +44,8 @@ website:
         aria-label: Google Scholar
 
   page-footer:
-    background: light
     left: "© 2026 Aske Halling"
-    center: "Aarhus University · Department of Political Science"
-    right: "Built with [Quarto](https://quarto.org)"
+    right: "Department of Political Science, Aarhus University"
 
 format:
   html:

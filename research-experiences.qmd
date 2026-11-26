@@ -12,33 +12,33 @@ If the first agenda asks which demands are seen as legitimate, this one asks wha
 ::: card-list
 
 ::: item
-[Administrative Burden in Citizen-State Interactions: A Systematic Literature Review]{.title}
+[[Administrative Burden in Citizen-State Interactions: A Systematic Literature Review](https://doi.org/10.1093/jopart/muad023)]{.title}
 
-[with Martin Bækgaard · *Journal of Public Administration Research and Theory*, 34(2): 180–195, 2024](https://doi.org/10.1093/jopart/muad023){.meta}
+[with Martin Bækgaard · *Journal of Public Administration Research and Theory*, 34(2): 180–195, 2024]{.meta}
 
 [This review synthesizes 119 studies to map how administrative burden has been studied since the concept emerged in 2012, and offers a comprehensive model linking its core concepts. We confirm that burdens are consequential, distributive, and socially constructed, and trace how the field has moved on to frontline delivery, government communication, and the emerging idea of burden tolerance.]{.description}
 :::
 
 ::: item
-[Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden]{.title}
+[[Beyond the Hassle: How Favorable Outcomes Reduce the Subjective Experience of Administrative Burden](https://doi.org/10.1080/10967494.2026.2696855)]{.title}
 
-[with Frederik Godt · *International Public Management Journal*, 2026](https://doi.org/10.1080/10967494.2026.2696855){.meta}
+[with Frederik Godt · *International Public Management Journal*, 2026]{.meta}
 
 [Experienced burden is almost always measured through citizens' self-reports, which may capture the outcome of a process as much as the process itself. Drawing on both observational data and an experiment that independently randomized the demands people faced and whether the process ended in their favor, we find that a favorable outcome makes the same procedure feel considerably less burdensome. Part of what the field records as the cost of the process is thus a reaction to the outcome, a real problem for a literature that leans so heavily on self-reports.]{.description}
 :::
 
 ::: item
-[Taxing Language: Do Interpreting Fees Affect Immigrant Healthcare Usage? Evidence from a Regression Discontinuity Design]{.title}
+[[Taxing Language: Do Interpreting Fees Affect Immigrant Healthcare Usage? Evidence from a Regression Discontinuity Design](https://doi.org/10.1111/puar.13930)]{.title}
 
-[*Public Administration Review*, 85(4): 1019–1037, 2025](https://doi.org/10.1111/puar.13930){.meta}
+[*Public Administration Review*, 85(4): 1019–1037, 2025]{.meta}
 
 [When Denmark introduced a fee for interpreter services, critics warned it would push immigrants away from healthcare. Using a regression discontinuity design and Danish register data, I test whether the new cost reduced immigrants' use of general practitioners. It did not: I find no effect on GP visits, even among the most disadvantaged patients. A new barrier of this kind, the study shows, need not change behavior in the way policy debates assume.]{.description}
 :::
 
 ::: item
-[Administrative byrder i mødet med lægen: oplevelser af efterlevelsesomkostninger blandt borgere med dårligt helbred]{.title}
+[[Administrative byrder i mødet med lægen: oplevelser af efterlevelsesomkostninger blandt borgere med dårligt helbred](https://doi.org/10.7146/politica.v56i4.151589)]{.title}
 
-[*Politica*, 56(4): 318–336, 2024](https://doi.org/10.7146/politica.v56i4.151589){.meta}
+[*Politica*, 56(4): 318–336, 2024]{.meta}
 
 [This Danish-language study turns to a setting where burdens are rarely examined: citizens' encounters with the healthcare system. Drawing on a representative survey of 1,020 Danes, I ask whether people in poor physical or mental health face greater compliance costs when visiting their doctor. Both poor physical health and poor mental well-being are associated with heavier burdens, though I find no extra penalty for those who suffer from both at once. The paper received *Politica*'s 2024 best-paper award.]{.description}
 :::
